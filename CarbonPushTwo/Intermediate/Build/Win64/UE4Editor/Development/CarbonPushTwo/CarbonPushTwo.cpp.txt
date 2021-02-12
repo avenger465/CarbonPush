@@ -1,0 +1,2 @@
+C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\Definitions.CarbonPushTwo.h
+C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Source\CarbonPushTwo\CarbonPushTwo.h

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\CarbonPushTwo.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{12585A7F-756D-4F6E-94FD-7913034A4F01}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CarbonPushTwo.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CarbonPushTwoEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{EDE69492-7F19-41AD-99BC-BCE0746A358E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\CarbonPushTwo">
+      <UniqueIdentifier>{68A26120-A8EB-4BC5-9EB0-78172B9AA08E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CarbonPushTwo\Base_Character.cpp">
+      <Filter>Source\CarbonPushTwo</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CarbonPushTwo\Base_Character.h">
+      <Filter>Source\CarbonPushTwo</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\CarbonPushTwo\CarbonPushTwo.Build.cs">
+      <Filter>Source\CarbonPushTwo</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CarbonPushTwo\CarbonPushTwo.cpp">
+      <Filter>Source\CarbonPushTwo</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CarbonPushTwo\CarbonPushTwo.h">
+      <Filter>Source\CarbonPushTwo</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CarbonPushTwo\CarbonPushTwoGameModeBase.cpp">
+      <Filter>Source\CarbonPushTwo</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CarbonPushTwo\CarbonPushTwoGameModeBase.h">
+      <Filter>Source\CarbonPushTwo</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

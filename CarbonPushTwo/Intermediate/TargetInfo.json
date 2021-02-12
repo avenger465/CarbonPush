@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "CarbonPushTwo",
+			"Path": "C:\\Users\\aveng\\Documents\\GitHub\\CarbonPush2\\CarbonPushTwo\\Source\\CarbonPushTwo.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "CarbonPushTwoEditor",
+			"Path": "C:\\Users\\aveng\\Documents\\GitHub\\CarbonPush2\\CarbonPushTwo\\Source\\CarbonPushTwoEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
