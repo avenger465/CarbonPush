@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "CustomMovementComponent.h"
 
 
 #include "GameFramework/Character.h"
@@ -29,6 +30,10 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+	UPROPERTY(EditAnywhere)
+		UCustomMovementComponent* ActionComponent;
+
 private:
 	void MoveForwards(float AxisAmount);
 	void strafe(float AxisAmount);

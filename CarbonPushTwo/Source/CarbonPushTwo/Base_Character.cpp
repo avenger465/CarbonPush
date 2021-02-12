@@ -19,6 +19,8 @@ ABase_Character::ABase_Character()
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(SpringArm);
 
+	ActionComponent = CreateDefaultSubobject<UCustomMovementComponent>(TEXT("Action Component"));
+
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
 }
 

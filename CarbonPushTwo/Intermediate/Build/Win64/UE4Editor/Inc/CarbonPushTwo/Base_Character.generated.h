@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define CARBONPUSHTWO_Base_Character_generated_h
 
-#define CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_16_SPARSE_DATA
-#define CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_16_RPC_WRAPPERS
-#define CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_16_RPC_WRAPPERS_NO_PURE_DECLS
-#define CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_16_INCLASS_NO_PURE_DECLS \
+#define CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_17_SPARSE_DATA
+#define CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_17_RPC_WRAPPERS
+#define CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABase_Character(); \
 	friend struct Z_Construct_UClass_ABase_Character_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(ABase_Character)
 
 
-#define CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_16_INCLASS \
+#define CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesABase_Character(); \
 	friend struct Z_Construct_UClass_ABase_Character_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(ABase_Character)
 
 
-#define CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_16_STANDARD_CONSTRUCTORS \
+#define CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ABase_Character(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABase_Character) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_16_ENHANCED_CONSTRUCTORS \
+#define CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ABase_Character(ABase_Character&&); \
@@ -58,33 +58,33 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABase_Character); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ABase_Character)
 
 
-#define CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_16_PRIVATE_PROPERTY_OFFSET \
+#define CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_17_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(ABase_Character, Camera); } \
 	FORCEINLINE static uint32 __PPO__SpringArm() { return STRUCT_OFFSET(ABase_Character, SpringArm); } \
 	FORCEINLINE static uint32 __PPO__SpringArmLength() { return STRUCT_OFFSET(ABase_Character, SpringArmLength); }
 
 
-#define CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_13_PROLOG
-#define CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_16_GENERATED_BODY_LEGACY \
+#define CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_14_PROLOG
+#define CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_16_PRIVATE_PROPERTY_OFFSET \
-	CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_16_SPARSE_DATA \
-	CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_16_RPC_WRAPPERS \
-	CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_16_INCLASS \
-	CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_16_STANDARD_CONSTRUCTORS \
+	CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_17_PRIVATE_PROPERTY_OFFSET \
+	CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_17_SPARSE_DATA \
+	CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_17_RPC_WRAPPERS \
+	CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_17_INCLASS \
+	CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_16_GENERATED_BODY \
+#define CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_16_PRIVATE_PROPERTY_OFFSET \
-	CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_16_SPARSE_DATA \
-	CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_16_INCLASS_NO_PURE_DECLS \
-	CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_16_ENHANCED_CONSTRUCTORS \
+	CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_17_PRIVATE_PROPERTY_OFFSET \
+	CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_17_SPARSE_DATA \
+	CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_17_INCLASS_NO_PURE_DECLS \
+	CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
