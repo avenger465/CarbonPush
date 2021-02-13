@@ -18,6 +18,7 @@ public:
 	void MoveForward(float AxisValue);
 	void Turn(float AxisValue);
 	void Fire();
+	//ABase_Character* Character;
 
 private:
 	UPROPERTY(EditAnywhere)

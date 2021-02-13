@@ -14,8 +14,18 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define CARBONPUSHTWO_Base_Character_generated_h
 
 #define CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_17_SPARSE_DATA
-#define CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_17_RPC_WRAPPERS
-#define CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_17_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execThrowGrenade); \
+	DECLARE_FUNCTION(execFire);
+
+
+#define CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execThrowGrenade); \
+	DECLARE_FUNCTION(execFire);
+
+
 #define CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABase_Character(); \
@@ -61,7 +71,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABase_Character); \
 #define CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_17_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(ABase_Character, Camera); } \
 	FORCEINLINE static uint32 __PPO__SpringArm() { return STRUCT_OFFSET(ABase_Character, SpringArm); } \
-	FORCEINLINE static uint32 __PPO__SpringArmLength() { return STRUCT_OFFSET(ABase_Character, SpringArmLength); }
+	FORCEINLINE static uint32 __PPO__ProjectileSpawnPoint() { return STRUCT_OFFSET(ABase_Character, ProjectileSpawnPoint); } \
+	FORCEINLINE static uint32 __PPO__SpringArmLength() { return STRUCT_OFFSET(ABase_Character, SpringArmLength); } \
+	FORCEINLINE static uint32 __PPO__Grenade() { return STRUCT_OFFSET(ABase_Character, Grenade); }
 
 
 #define CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_14_PROLOG

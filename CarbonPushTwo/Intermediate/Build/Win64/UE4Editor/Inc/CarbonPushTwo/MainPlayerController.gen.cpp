@@ -160,6 +160,10 @@ void EmptyLinkFunctionForGeneratedCodeMainPlayerController() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Level_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_Level;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ReloadSound_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ReloadSound;
@@ -168,9 +172,13 @@ void EmptyLinkFunctionForGeneratedCodeMainPlayerController() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_GunSound;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TotalAmmo_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TotalThrowableAmmo_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_TotalAmmo;
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_TotalThrowableAmmo;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TotalGunAmmo_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_TotalGunAmmo;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentClip_MetaData[];
 #endif
@@ -188,6 +196,10 @@ void EmptyLinkFunctionForGeneratedCodeMainPlayerController() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_PlayerMaxHealth;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_EndScreenDisplay_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_EndScreenDisplay;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PlayerInterfaceDisplay_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PlayerInterfaceDisplay;
@@ -195,6 +207,10 @@ void EmptyLinkFunctionForGeneratedCodeMainPlayerController() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_StartDisplay_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_StartDisplay;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_EndScreenWidget_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_EndScreenWidget;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PlayerInterfaceWidget_MetaData[];
 #endif
@@ -225,6 +241,12 @@ void EmptyLinkFunctionForGeneratedCodeMainPlayerController() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainPlayerController_Statics::NewProp_Level_MetaData[] = {
+		{ "ModuleRelativePath", "MainPlayerController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_AMainPlayerController_Statics::NewProp_Level = { "Level", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainPlayerController, Level), METADATA_PARAMS(Z_Construct_UClass_AMainPlayerController_Statics::NewProp_Level_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMainPlayerController_Statics::NewProp_Level_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainPlayerController_Statics::NewProp_ReloadSound_MetaData[] = {
 		{ "Category", "MainPlayerController" },
 		{ "ModuleRelativePath", "MainPlayerController.h" },
@@ -239,12 +261,19 @@ void EmptyLinkFunctionForGeneratedCodeMainPlayerController() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMainPlayerController_Statics::NewProp_GunSound = { "GunSound", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainPlayerController, GunSound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMainPlayerController_Statics::NewProp_GunSound_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMainPlayerController_Statics::NewProp_GunSound_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainPlayerController_Statics::NewProp_TotalAmmo_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainPlayerController_Statics::NewProp_TotalThrowableAmmo_MetaData[] = {
 		{ "Category", "MainPlayerController" },
 		{ "ModuleRelativePath", "MainPlayerController.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AMainPlayerController_Statics::NewProp_TotalAmmo = { "TotalAmmo", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainPlayerController, TotalAmmo), METADATA_PARAMS(Z_Construct_UClass_AMainPlayerController_Statics::NewProp_TotalAmmo_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMainPlayerController_Statics::NewProp_TotalAmmo_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AMainPlayerController_Statics::NewProp_TotalThrowableAmmo = { "TotalThrowableAmmo", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainPlayerController, TotalThrowableAmmo), METADATA_PARAMS(Z_Construct_UClass_AMainPlayerController_Statics::NewProp_TotalThrowableAmmo_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMainPlayerController_Statics::NewProp_TotalThrowableAmmo_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainPlayerController_Statics::NewProp_TotalGunAmmo_MetaData[] = {
+		{ "Category", "MainPlayerController" },
+		{ "ModuleRelativePath", "MainPlayerController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AMainPlayerController_Statics::NewProp_TotalGunAmmo = { "TotalGunAmmo", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainPlayerController, TotalGunAmmo), METADATA_PARAMS(Z_Construct_UClass_AMainPlayerController_Statics::NewProp_TotalGunAmmo_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMainPlayerController_Statics::NewProp_TotalGunAmmo_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainPlayerController_Statics::NewProp_CurrentClip_MetaData[] = {
 		{ "Category", "MainPlayerController" },
@@ -274,6 +303,13 @@ void EmptyLinkFunctionForGeneratedCodeMainPlayerController() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMainPlayerController_Statics::NewProp_PlayerMaxHealth = { "PlayerMaxHealth", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainPlayerController, PlayerMaxHealth), METADATA_PARAMS(Z_Construct_UClass_AMainPlayerController_Statics::NewProp_PlayerMaxHealth_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMainPlayerController_Statics::NewProp_PlayerMaxHealth_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainPlayerController_Statics::NewProp_EndScreenDisplay_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "MainPlayerController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMainPlayerController_Statics::NewProp_EndScreenDisplay = { "EndScreenDisplay", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainPlayerController, EndScreenDisplay), Z_Construct_UClass_UUserWidget_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMainPlayerController_Statics::NewProp_EndScreenDisplay_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMainPlayerController_Statics::NewProp_EndScreenDisplay_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainPlayerController_Statics::NewProp_PlayerInterfaceDisplay_MetaData[] = {
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "MainPlayerController.h" },
@@ -287,6 +323,13 @@ void EmptyLinkFunctionForGeneratedCodeMainPlayerController() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMainPlayerController_Statics::NewProp_StartDisplay = { "StartDisplay", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainPlayerController, StartDisplay), Z_Construct_UClass_UUserWidget_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMainPlayerController_Statics::NewProp_StartDisplay_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMainPlayerController_Statics::NewProp_StartDisplay_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainPlayerController_Statics::NewProp_EndScreenWidget_MetaData[] = {
+		{ "Category", "MainPlayerController" },
+		{ "ModuleRelativePath", "MainPlayerController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMainPlayerController_Statics::NewProp_EndScreenWidget = { "EndScreenWidget", nullptr, (EPropertyFlags)0x0044000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainPlayerController, EndScreenWidget), Z_Construct_UClass_UUserWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AMainPlayerController_Statics::NewProp_EndScreenWidget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMainPlayerController_Statics::NewProp_EndScreenWidget_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainPlayerController_Statics::NewProp_PlayerInterfaceWidget_MetaData[] = {
 		{ "Category", "MainPlayerController" },
@@ -302,15 +345,19 @@ void EmptyLinkFunctionForGeneratedCodeMainPlayerController() {}
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMainPlayerController_Statics::NewProp_StartWidget = { "StartWidget", nullptr, (EPropertyFlags)0x0044000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainPlayerController, StartWidget), Z_Construct_UClass_UUserWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AMainPlayerController_Statics::NewProp_StartWidget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMainPlayerController_Statics::NewProp_StartWidget_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMainPlayerController_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainPlayerController_Statics::NewProp_Level,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainPlayerController_Statics::NewProp_ReloadSound,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainPlayerController_Statics::NewProp_GunSound,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainPlayerController_Statics::NewProp_TotalAmmo,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainPlayerController_Statics::NewProp_TotalThrowableAmmo,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainPlayerController_Statics::NewProp_TotalGunAmmo,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainPlayerController_Statics::NewProp_CurrentClip,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainPlayerController_Statics::NewProp_AmmoClip,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainPlayerController_Statics::NewProp_PlayerHealth,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainPlayerController_Statics::NewProp_PlayerMaxHealth,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainPlayerController_Statics::NewProp_EndScreenDisplay,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainPlayerController_Statics::NewProp_PlayerInterfaceDisplay,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainPlayerController_Statics::NewProp_StartDisplay,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainPlayerController_Statics::NewProp_EndScreenWidget,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainPlayerController_Statics::NewProp_PlayerInterfaceWidget,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainPlayerController_Statics::NewProp_StartWidget,
 	};
@@ -341,7 +388,7 @@ void EmptyLinkFunctionForGeneratedCodeMainPlayerController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMainPlayerController, 2743423421);
+	IMPLEMENT_CLASS(AMainPlayerController, 3329627585);
 	template<> CARBONPUSHTWO_API UClass* StaticClass<AMainPlayerController>()
 	{
 		return AMainPlayerController::StaticClass();

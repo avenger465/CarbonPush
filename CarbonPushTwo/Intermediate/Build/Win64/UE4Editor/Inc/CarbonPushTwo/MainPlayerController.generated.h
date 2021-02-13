@@ -73,15 +73,19 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMainPlayerController); \
 #define CarbonPushTwo_Source_CarbonPushTwo_MainPlayerController_h_16_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__StartWidget() { return STRUCT_OFFSET(AMainPlayerController, StartWidget); } \
 	FORCEINLINE static uint32 __PPO__PlayerInterfaceWidget() { return STRUCT_OFFSET(AMainPlayerController, PlayerInterfaceWidget); } \
+	FORCEINLINE static uint32 __PPO__EndScreenWidget() { return STRUCT_OFFSET(AMainPlayerController, EndScreenWidget); } \
 	FORCEINLINE static uint32 __PPO__StartDisplay() { return STRUCT_OFFSET(AMainPlayerController, StartDisplay); } \
 	FORCEINLINE static uint32 __PPO__PlayerInterfaceDisplay() { return STRUCT_OFFSET(AMainPlayerController, PlayerInterfaceDisplay); } \
+	FORCEINLINE static uint32 __PPO__EndScreenDisplay() { return STRUCT_OFFSET(AMainPlayerController, EndScreenDisplay); } \
 	FORCEINLINE static uint32 __PPO__PlayerMaxHealth() { return STRUCT_OFFSET(AMainPlayerController, PlayerMaxHealth); } \
 	FORCEINLINE static uint32 __PPO__PlayerHealth() { return STRUCT_OFFSET(AMainPlayerController, PlayerHealth); } \
 	FORCEINLINE static uint32 __PPO__AmmoClip() { return STRUCT_OFFSET(AMainPlayerController, AmmoClip); } \
 	FORCEINLINE static uint32 __PPO__CurrentClip() { return STRUCT_OFFSET(AMainPlayerController, CurrentClip); } \
-	FORCEINLINE static uint32 __PPO__TotalAmmo() { return STRUCT_OFFSET(AMainPlayerController, TotalAmmo); } \
+	FORCEINLINE static uint32 __PPO__TotalGunAmmo() { return STRUCT_OFFSET(AMainPlayerController, TotalGunAmmo); } \
+	FORCEINLINE static uint32 __PPO__TotalThrowableAmmo() { return STRUCT_OFFSET(AMainPlayerController, TotalThrowableAmmo); } \
 	FORCEINLINE static uint32 __PPO__GunSound() { return STRUCT_OFFSET(AMainPlayerController, GunSound); } \
-	FORCEINLINE static uint32 __PPO__ReloadSound() { return STRUCT_OFFSET(AMainPlayerController, ReloadSound); }
+	FORCEINLINE static uint32 __PPO__ReloadSound() { return STRUCT_OFFSET(AMainPlayerController, ReloadSound); } \
+	FORCEINLINE static uint32 __PPO__Level() { return STRUCT_OFFSET(AMainPlayerController, Level); }
 
 
 #define CarbonPushTwo_Source_CarbonPushTwo_MainPlayerController_h_13_PROLOG

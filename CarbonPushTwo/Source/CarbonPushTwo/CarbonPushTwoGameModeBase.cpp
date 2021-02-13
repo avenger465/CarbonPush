@@ -6,7 +6,7 @@
 
 void ACarbonPushTwoGameModeBase::BeginPlay()
 {
-	GetWorld()->GetTimerManager().SetTimer(SwitchLevelTimer, this, &ACarbonPushTwoGameModeBase::ChangeLevel, LevelDuration, false);
+	//GetWorld()->GetTimerManager().SetTimer(SwitchLevelTimer, this, &ACarbonPushTwoGameModeBase::ChangeLevel, LevelDuration, false);
 }
 
 void ACarbonPushTwoGameModeBase::ChangeLevel()

@@ -3,7 +3,6 @@
 //#include "Blueprint/UserWidget.h"
 #include "Kismet/GameplayStatics.h"
 #include "StartGameModeBase.h"
-#include "MainPlayerController.h"
 
 
 void AStartGameModeBase::BeginPlay()

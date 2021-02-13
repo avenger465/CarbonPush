@@ -24,7 +24,7 @@ private:
 	UPROPERTY()
 		FTimerHandle SwitchLevelTimer;
 	UPROPERTY()
-		float LevelDuration = 5.0f;
+		float LevelDuration = 10.0f;
 	UFUNCTION()
 		void ChangeLevel();
 };

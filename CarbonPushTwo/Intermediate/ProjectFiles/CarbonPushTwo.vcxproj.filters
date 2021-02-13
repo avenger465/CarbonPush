@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\CarbonPushTwo.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{70DA58A9-EE3F-42CC-A857-9CD950AF50A0}</UniqueIdentifier>
+      <UniqueIdentifier>{11B7C1C9-50F5-4F98-83C9-4AD2A57FCBFB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\CarbonPushTwo.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{8C7B5D4E-1446-49FE-85BB-53558B5154A6}</UniqueIdentifier>
+      <UniqueIdentifier>{CDBB8B80-084D-451E-AA90-0B97B58D1F43}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,12 +27,18 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\CarbonPushTwo">
-      <UniqueIdentifier>{EFD23A87-8E3D-4173-A591-FDCA2AF766C8}</UniqueIdentifier>
+      <UniqueIdentifier>{415A91BC-12AC-44FA-A00B-1CC2C92B9273}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\CarbonPushTwo\Base_Character.cpp">
       <Filter>Source\CarbonPushTwo</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\CarbonPushTwo\Base_Character.h">
+      <Filter>Source\CarbonPushTwo</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CarbonPushTwo\BTTask_GetRandomLocation.cpp">
+      <Filter>Source\CarbonPushTwo</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CarbonPushTwo\BTTask_GetRandomLocation.h">
       <Filter>Source\CarbonPushTwo</Filter>
     </ClInclude>
     <None Include="..\..\Source\CarbonPushTwo\CarbonPushTwo.Build.cs">
@@ -50,10 +56,28 @@
     <ClInclude Include="..\..\Source\CarbonPushTwo\CarbonPushTwoGameModeBase.h">
       <Filter>Source\CarbonPushTwo</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\CarbonPushTwo\CardboardBox.cpp">
+      <Filter>Source\CarbonPushTwo</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CarbonPushTwo\CardboardBox.h">
+      <Filter>Source\CarbonPushTwo</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\CarbonPushTwo\CustomMovementComponent.cpp">
       <Filter>Source\CarbonPushTwo</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\CarbonPushTwo\CustomMovementComponent.h">
+      <Filter>Source\CarbonPushTwo</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CarbonPushTwo\EnemyAIController.cpp">
+      <Filter>Source\CarbonPushTwo</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CarbonPushTwo\EnemyAIController.h">
+      <Filter>Source\CarbonPushTwo</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CarbonPushTwo\Grenade.cpp">
+      <Filter>Source\CarbonPushTwo</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CarbonPushTwo\Grenade.h">
       <Filter>Source\CarbonPushTwo</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\CarbonPushTwo\MainPlayerController.cpp">

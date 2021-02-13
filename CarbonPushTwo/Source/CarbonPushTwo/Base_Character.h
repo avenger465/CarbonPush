@@ -6,7 +6,7 @@
 #include "Camera/CameraComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "CustomMovementComponent.h"
-
+#include "Grenade.h"
 
 #include "GameFramework/Character.h"
 #include "Base_Character.generated.h"
@@ -33,6 +33,10 @@ public:
 
 	UPROPERTY(EditAnywhere)
 		UCustomMovementComponent* ActionComponent;
+	UFUNCTION()
+		void Fire();
+	UFUNCTION()
+		void ThrowGrenade();
 
 private:
 	void MoveForwards(float AxisAmount);
@@ -45,6 +49,10 @@ private:
 	UPROPERTY(EditAnywhere)
 		USpringArmComponent* SpringArm;
 	UPROPERTY(EditAnywhere)
+		USceneComponent* ProjectileSpawnPoint;
+	UPROPERTY(EditAnywhere)
 		float SpringArmLength = 500.0f;
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<AGrenade> Grenade;
 
 };

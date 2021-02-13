@@ -2,6 +2,7 @@
 
 
 #include "MainPlayerController.h"
+#include "Base_Character.h"
 #include "Kismet/GameplayStatics.h"
 #include "Blueprint/UserWidget.h"
 AMainPlayerController::AMainPlayerController()
@@ -13,7 +14,8 @@ void AMainPlayerController::BeginPlay()
 	Super::BeginPlay();
 	StartDisplay = CreateWidget(this, StartWidget);	
 	PlayerInterfaceDisplay = CreateWidget(this, PlayerInterfaceWidget);
-	FString Level = UGameplayStatics::GetCurrentLevelName(GetWorld(), true);
+	EndScreenDisplay = CreateWidget(this, EndScreenWidget);
+	Level = UGameplayStatics::GetCurrentLevelName(GetWorld(), true);
 	UE_LOG(LogTemp, Warning, TEXT("Map: %s"), *FString(Level));
 	WidgetLoader(Level);
 	Pawn = Cast<ABase_Character>(GetPawn());
@@ -26,21 +28,20 @@ void AMainPlayerController::SetupInputComponent()
 	check(InputComponent);
 	InputComponent->BindAction("Fire", EInputEvent::IE_Pressed, this, &AMainPlayerController::Fire);
 	InputComponent->BindAction("Reload", EInputEvent::IE_Pressed, this, &AMainPlayerController::Reload);
+	InputComponent->BindAction("Throwable", EInputEvent::IE_Pressed, this, &AMainPlayerController::Throwable);
 }
 
 void AMainPlayerController::Fire()
 {
-	
-	if (Pawn)
+	if (Pawn && Level == "Main_Screen")
 	{
-		if (CurrentClip > 0)
+		if (CurrentClip > 0 && TotalGunAmmo > 0)
 		{
 			UGameplayStatics::PlaySoundAtLocation(GetWorld(), GunSound, Pawn->GetActorLocation(), 1.0f, 1.0f, 0.0f);
 			--CurrentClip;
 			PlayerHealth -= 10;
-			//UE_LOG(LogTemp, Warning, TEXT("Ammo Remaining: %i"), CurrentClip);
-			//ABullet* TempBullet = GetWorld()->SpawnActor<ABullet>(Bullet, Pawn->ProjectileSpawnPoint->GetComponentLocation(), Pawn->ProjectileSpawnPoint->GetComponentRotation());
-			Pawn->ActionComponent->Fire();
+			ABase_Character* character = Cast<ABase_Character>(GetPawn());
+			character->Fire();
 		}
 	}
 }
@@ -48,13 +49,22 @@ void AMainPlayerController::Fire()
 void AMainPlayerController::Reload()
 {
 	
-	if (TotalAmmo > 0)
+	if (TotalGunAmmo > 0)
 	{
 		UGameplayStatics::PlaySoundAtLocation(GetWorld(), ReloadSound, Pawn->GetActorLocation(), 1.0f, 1.0f, 0.0f);
 		PlayerHealth = 100;
 		int ReloadAmount = AmmoClip - CurrentClip;
-		TotalAmmo -= ReloadAmount;
+		TotalGunAmmo -= ReloadAmount;
 		CurrentClip = AmmoClip;
+	}
+}
+
+void AMainPlayerController::Throwable()
+{
+	if (TotalThrowableAmmo > 0)
+	{
+		ABase_Character* character = Cast<ABase_Character>(GetPawn());
+		character->ThrowGrenade();
 	}
 }
 
@@ -66,6 +76,7 @@ void AMainPlayerController::WidgetLoader(FString LevelName)
 		{
 			StartDisplay->AddToViewport();
 			PlayerInterfaceDisplay->RemoveFromViewport();
+			EndScreenDisplay->RemoveFromViewport();
 			UE_LOG(LogTemp, Warning, TEXT("Carbon"));
 		}
 	}
@@ -75,12 +86,19 @@ void AMainPlayerController::WidgetLoader(FString LevelName)
 		{
 			PlayerInterfaceDisplay->AddToViewport();
 			StartDisplay->RemoveFromViewport();
+			EndScreenDisplay->RemoveFromViewport();
 			UE_LOG(LogTemp, Warning, TEXT("Gun"));
 		}
 	}
 	else if (LevelName == "End_Screen")
 	{
-
+		if (EndScreenDisplay != nullptr)
+		{
+			EndScreenDisplay->AddToViewport();
+			StartDisplay->RemoveFromViewport();
+			PlayerInterfaceDisplay->RemoveFromViewport();
+			UE_LOG(LogTemp, Warning, TEXT("End"));
+		}
 	}
 }
 
@@ -91,7 +109,7 @@ int AMainPlayerController::ReturnCurrentClip()
 
 int AMainPlayerController::ReturnTotalAmmo()
 {
-	return TotalAmmo;
+	return TotalGunAmmo;
 }
 
 float AMainPlayerController::ReturnPlayersHealthPercentage()

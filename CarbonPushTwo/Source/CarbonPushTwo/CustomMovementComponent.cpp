@@ -2,6 +2,7 @@
 
 
 #include "CustomMovementComponent.h"
+#include "Base_Character.h"
 
 void UCustomMovementComponent::MoveForward(float AxisX)
 {
@@ -18,4 +19,6 @@ void UCustomMovementComponent::Turn(float AxisZ)
 void UCustomMovementComponent::Fire()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Firing"));
+	//Character = Cast<ABase_Character>(GetPawn());
+	//AController* ControllerRef = GetController();
 }

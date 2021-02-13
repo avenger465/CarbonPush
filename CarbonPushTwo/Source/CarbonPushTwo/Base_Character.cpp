@@ -19,6 +19,10 @@ ABase_Character::ABase_Character()
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(SpringArm);
 
+	ProjectileSpawnPoint = CreateDefaultSubobject<USceneComponent>(TEXT("Projectile Spawnpoint"));
+	ProjectileSpawnPoint->SetupAttachment(RootComponent);
+	ProjectileSpawnPoint->SetRelativeLocation(FVector(160.0f, 0.0f, 140.0f));
+
 	ActionComponent = CreateDefaultSubobject<UCustomMovementComponent>(TEXT("Action Component"));
 
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
@@ -67,5 +71,36 @@ void ABase_Character::LookUp(float AxisAmount)
 void ABase_Character::Turn(float AxisAmount)
 {
 	AddControllerYawInput(AxisAmount);
+}
+
+void ABase_Character::ThrowGrenade()
+{
+	FVector SpawnLocation = ProjectileSpawnPoint->GetComponentLocation();
+	FRotator SpawnRotation = ProjectileSpawnPoint->GetComponentRotation();
+	AGrenade* TempGrenade = GetWorld()->SpawnActor<AGrenade>(Grenade, ProjectileSpawnPoint->GetComponentLocation(), ProjectileSpawnPoint->GetComponentRotation());
+	TempGrenade->SetOwner(this);
+}
+
+void ABase_Character::Fire()
+{
+	AController* ControllerRef = GetController();
+	FVector Location;
+	FRotator Rotation;
+	ControllerRef->GetPlayerViewPoint(Location, Rotation);
+			
+	float CastRange = 10000.0f;
+	FVector End = Location + Rotation.Vector() * CastRange;
+
+	FHitResult Hit;
+	bool bDidHit = GetWorld()->LineTraceSingleByChannel(Hit, Location, End, ECC_Visibility);
+
+	if (bDidHit)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Hit %s"), *Hit.GetActor()->GetName());
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Miss "));
+	}
 }
 

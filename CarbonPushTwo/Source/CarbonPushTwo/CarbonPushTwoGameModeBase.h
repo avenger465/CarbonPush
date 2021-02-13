@@ -3,7 +3,6 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "MainPlayerController.h"
 
 #include "GameFramework/GameModeBase.h"
 #include "CarbonPushTwoGameModeBase.generated.h"
@@ -21,10 +20,10 @@ protected:
 
 
 private:
-	UPROPERTY()
+	/*UPROPERTY()
 		FTimerHandle SwitchLevelTimer;
 	UPROPERTY()
-		float LevelDuration = 5.0f;
+		float LevelDuration = 5.0f;*/
 	UFUNCTION()
 		void ChangeLevel();
 };

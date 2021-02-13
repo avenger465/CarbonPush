@@ -22,6 +22,7 @@ public:
 	virtual void SetupInputComponent();
 	virtual void Fire();
 	virtual void Reload();
+	virtual void Throwable();
 	virtual void WidgetLoader(FString LevelName);
 	ABase_Character* Pawn;
 
@@ -31,11 +32,15 @@ private:
 		TSubclassOf<UUserWidget> StartWidget;
 	UPROPERTY(EditAnywhere)
 		TSubclassOf<UUserWidget> PlayerInterfaceWidget;
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<UUserWidget> EndScreenWidget;
 
 	UPROPERTY()
 		UUserWidget* StartDisplay;
 	UPROPERTY()
 		UUserWidget* PlayerInterfaceDisplay;
+	UPROPERTY()
+		UUserWidget* EndScreenDisplay;
 
 	UPROPERTY(EditAnywhere)
 		float PlayerMaxHealth = 100.0f;
@@ -47,11 +52,15 @@ private:
 	UPROPERTY(EditAnywhere)
 		int CurrentClip = AmmoClip;
 	UPROPERTY(EditAnywhere)
-		int TotalAmmo = 120;
+		int TotalGunAmmo = 120;
+	UPROPERTY(EditAnywhere)
+		int TotalThrowableAmmo = 5;
 	UPROPERTY(EditAnywhere)
 		USoundBase* GunSound;
 	UPROPERTY(EditAnywhere)
 		USoundBase* ReloadSound;
+	UPROPERTY()
+		FString Level;
 
 	UFUNCTION(BlueprintPure)
 		int ReturnCurrentClip();
@@ -59,4 +68,6 @@ private:
 		int ReturnTotalAmmo();
 	UFUNCTION(BlueprintPure)
 		float ReturnPlayersHealthPercentage();
+	/*UFUNCTION(BlueprintPure)
+		void ();*/
 };
