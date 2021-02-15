@@ -17,13 +17,23 @@ void EmptyLinkFunctionForGeneratedCodeBase_Character() {}
 	CARBONPUSHTWO_API UClass* Z_Construct_UClass_ABase_Character();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_CarbonPushTwo();
+	CARBONPUSHTWO_API UClass* Z_Construct_UClass_ACarbonPushTwoGameModeBase_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	CARBONPUSHTWO_API UClass* Z_Construct_UClass_AGrenade_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USceneCaptureComponent2D_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	CARBONPUSHTWO_API UClass* Z_Construct_UClass_UCustomMovementComponent_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(ABase_Character::execReturnPlayerStats)
+	{
+		P_GET_PROPERTY_REF(FFloatProperty,Z_Param_Out_Health);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->ReturnPlayerStats(Z_Param_Out_Health);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(ABase_Character::execThrowGrenade)
 	{
 		P_FINISH;
@@ -43,6 +53,7 @@ void EmptyLinkFunctionForGeneratedCodeBase_Character() {}
 		UClass* Class = ABase_Character::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "Fire", &ABase_Character::execFire },
+			{ "ReturnPlayerStats", &ABase_Character::execReturnPlayerStats },
 			{ "ThrowGrenade", &ABase_Character::execThrowGrenade },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
@@ -66,6 +77,38 @@ void EmptyLinkFunctionForGeneratedCodeBase_Character() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABase_Character_Fire_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ABase_Character_ReturnPlayerStats_Statics
+	{
+		struct Base_Character_eventReturnPlayerStats_Parms
+		{
+			float Health;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Health;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ABase_Character_ReturnPlayerStats_Statics::NewProp_Health = { "Health", nullptr, (EPropertyFlags)0x0010000000000180, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Base_Character_eventReturnPlayerStats_Parms, Health), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABase_Character_ReturnPlayerStats_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABase_Character_ReturnPlayerStats_Statics::NewProp_Health,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABase_Character_ReturnPlayerStats_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Base_Character.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABase_Character_ReturnPlayerStats_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABase_Character, nullptr, "ReturnPlayerStats", nullptr, nullptr, sizeof(Base_Character_eventReturnPlayerStats_Parms), Z_Construct_UFunction_ABase_Character_ReturnPlayerStats_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ABase_Character_ReturnPlayerStats_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00420401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABase_Character_ReturnPlayerStats_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ABase_Character_ReturnPlayerStats_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABase_Character_ReturnPlayerStats()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABase_Character_ReturnPlayerStats_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -103,6 +146,14 @@ void EmptyLinkFunctionForGeneratedCodeBase_Character() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GameModeRef_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_GameModeRef;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PlayerHealth_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_PlayerHealth;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Grenade_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_Grenade;
@@ -111,9 +162,17 @@ void EmptyLinkFunctionForGeneratedCodeBase_Character() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_SpringArmLength;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MiniMapCamera_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MiniMapCamera;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ProjectileSpawnPoint_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ProjectileSpawnPoint;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MiniMapArm_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MiniMapArm;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpringArm_MetaData[];
 #endif
@@ -136,6 +195,7 @@ void EmptyLinkFunctionForGeneratedCodeBase_Character() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ABase_Character_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_ABase_Character_Fire, "Fire" }, // 148917958
+		{ &Z_Construct_UFunction_ABase_Character_ReturnPlayerStats, "ReturnPlayerStats" }, // 2503250439
 		{ &Z_Construct_UFunction_ABase_Character_ThrowGrenade, "ThrowGrenade" }, // 3862341333
 	};
 #if WITH_METADATA
@@ -146,6 +206,19 @@ void EmptyLinkFunctionForGeneratedCodeBase_Character() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABase_Character_Statics::NewProp_GameModeRef_MetaData[] = {
+		{ "ModuleRelativePath", "Base_Character.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABase_Character_Statics::NewProp_GameModeRef = { "GameModeRef", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABase_Character, GameModeRef), Z_Construct_UClass_ACarbonPushTwoGameModeBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABase_Character_Statics::NewProp_GameModeRef_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABase_Character_Statics::NewProp_GameModeRef_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABase_Character_Statics::NewProp_PlayerHealth_MetaData[] = {
+		{ "Category", "Base_Character" },
+		{ "ModuleRelativePath", "Base_Character.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABase_Character_Statics::NewProp_PlayerHealth = { "PlayerHealth", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABase_Character, PlayerHealth), METADATA_PARAMS(Z_Construct_UClass_ABase_Character_Statics::NewProp_PlayerHealth_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABase_Character_Statics::NewProp_PlayerHealth_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABase_Character_Statics::NewProp_Grenade_MetaData[] = {
 		{ "Category", "Base_Character" },
 		{ "ModuleRelativePath", "Base_Character.h" },
@@ -155,10 +228,20 @@ void EmptyLinkFunctionForGeneratedCodeBase_Character() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABase_Character_Statics::NewProp_SpringArmLength_MetaData[] = {
 		{ "Category", "Base_Character" },
+		{ "Comment", "//UPROPERTY(EditAnywhere)\n//\x09UPaperSpriteComponent* PlayerIcon;\n" },
 		{ "ModuleRelativePath", "Base_Character.h" },
+		{ "ToolTip", "UPROPERTY(EditAnywhere)\n       UPaperSpriteComponent* PlayerIcon;" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABase_Character_Statics::NewProp_SpringArmLength = { "SpringArmLength", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABase_Character, SpringArmLength), METADATA_PARAMS(Z_Construct_UClass_ABase_Character_Statics::NewProp_SpringArmLength_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABase_Character_Statics::NewProp_SpringArmLength_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABase_Character_Statics::NewProp_MiniMapCamera_MetaData[] = {
+		{ "Category", "Base_Character" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Base_Character.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABase_Character_Statics::NewProp_MiniMapCamera = { "MiniMapCamera", nullptr, (EPropertyFlags)0x0040000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABase_Character, MiniMapCamera), Z_Construct_UClass_USceneCaptureComponent2D_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABase_Character_Statics::NewProp_MiniMapCamera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABase_Character_Statics::NewProp_MiniMapCamera_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABase_Character_Statics::NewProp_ProjectileSpawnPoint_MetaData[] = {
 		{ "Category", "Base_Character" },
@@ -167,6 +250,14 @@ void EmptyLinkFunctionForGeneratedCodeBase_Character() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABase_Character_Statics::NewProp_ProjectileSpawnPoint = { "ProjectileSpawnPoint", nullptr, (EPropertyFlags)0x0040000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABase_Character, ProjectileSpawnPoint), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABase_Character_Statics::NewProp_ProjectileSpawnPoint_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABase_Character_Statics::NewProp_ProjectileSpawnPoint_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABase_Character_Statics::NewProp_MiniMapArm_MetaData[] = {
+		{ "Category", "Base_Character" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Base_Character.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABase_Character_Statics::NewProp_MiniMapArm = { "MiniMapArm", nullptr, (EPropertyFlags)0x0040000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABase_Character, MiniMapArm), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABase_Character_Statics::NewProp_MiniMapArm_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABase_Character_Statics::NewProp_MiniMapArm_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABase_Character_Statics::NewProp_SpringArm_MetaData[] = {
 		{ "Category", "Base_Character" },
@@ -192,9 +283,13 @@ void EmptyLinkFunctionForGeneratedCodeBase_Character() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABase_Character_Statics::NewProp_ActionComponent = { "ActionComponent", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABase_Character, ActionComponent), Z_Construct_UClass_UCustomMovementComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABase_Character_Statics::NewProp_ActionComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABase_Character_Statics::NewProp_ActionComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABase_Character_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase_Character_Statics::NewProp_GameModeRef,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase_Character_Statics::NewProp_PlayerHealth,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase_Character_Statics::NewProp_Grenade,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase_Character_Statics::NewProp_SpringArmLength,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase_Character_Statics::NewProp_MiniMapCamera,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase_Character_Statics::NewProp_ProjectileSpawnPoint,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase_Character_Statics::NewProp_MiniMapArm,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase_Character_Statics::NewProp_SpringArm,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase_Character_Statics::NewProp_Camera,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase_Character_Statics::NewProp_ActionComponent,
@@ -226,7 +321,7 @@ void EmptyLinkFunctionForGeneratedCodeBase_Character() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABase_Character, 1206992314);
+	IMPLEMENT_CLASS(ABase_Character, 844415038);
 	template<> CARBONPUSHTWO_API UClass* StaticClass<ABase_Character>()
 	{
 		return ABase_Character::StaticClass();

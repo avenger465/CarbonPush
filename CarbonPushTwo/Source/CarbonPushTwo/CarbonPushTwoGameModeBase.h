@@ -18,12 +18,21 @@ class CARBONPUSHTWO_API ACarbonPushTwoGameModeBase : public AGameModeBase
 protected:
 	virtual void BeginPlay() override;
 
+public:
+	UFUNCTION()
+		void GameOver(bool PlayerWon);
+	UFUNCTION()
+		void PointScored();
+
 
 private:
-	/*UPROPERTY()
-		FTimerHandle SwitchLevelTimer;
 	UPROPERTY()
-		float LevelDuration = 5.0f;*/
-	UFUNCTION()
-		void ChangeLevel();
+		int targetPoints = 5;
+	UPROPERTY()
+		int userPoints = 0;
+	UPROPERTY()
+		int point = 1;
+	UPROPERTY()
+		float LevelDuration = 5.0f;
+
 };

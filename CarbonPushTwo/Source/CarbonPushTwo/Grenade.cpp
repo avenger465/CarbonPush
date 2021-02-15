@@ -2,6 +2,7 @@
 
 
 #include "Grenade.h"
+#include "CardboardBox.h"
 
 // Sets default values
 AGrenade::AGrenade()
@@ -36,21 +37,10 @@ void AGrenade::Tick(float DeltaTime)
 
 void AGrenade::OnHit(AActor* SelfActor, AActor* OtherActor, FVector NormalImpulse, const FHitResult& Hit)
 {
-	/*if (OtherActor->GetClass()->IsChildOf(ASaucer::StaticClass()))
+	if (OtherActor->GetClass()->IsChildOf(ACardboardBox::StaticClass()))
 	{
-		AActor* ProjectileOwner = GetOwner();
-		if (ProjectileOwner == NULL)
-			return;
-		UGameplayStatics::ApplyDamage(
-			OtherActor,
-			TeabagDamage,
-			ProjectileOwner->GetInstigatorController(),
-			this,
-			UDamageType::StaticClass()
-
-		);
 		Destroy();
-		UE_LOG(LogTemp, Warning, TEXT("Collided with Saucer"));
-	}*/
+		UE_LOG(LogTemp, Warning, TEXT("Collided with CardboardBox"));
+	}
 }
 

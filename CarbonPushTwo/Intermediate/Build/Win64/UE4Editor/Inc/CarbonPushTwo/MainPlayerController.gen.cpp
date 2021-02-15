@@ -188,10 +188,6 @@ void EmptyLinkFunctionForGeneratedCodeMainPlayerController() {}
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_AmmoClip;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PlayerHealth_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_PlayerHealth;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PlayerMaxHealth_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_PlayerMaxHealth;
@@ -289,13 +285,6 @@ void EmptyLinkFunctionForGeneratedCodeMainPlayerController() {}
 #endif
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AMainPlayerController_Statics::NewProp_AmmoClip = { "AmmoClip", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainPlayerController, AmmoClip), METADATA_PARAMS(Z_Construct_UClass_AMainPlayerController_Statics::NewProp_AmmoClip_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMainPlayerController_Statics::NewProp_AmmoClip_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainPlayerController_Statics::NewProp_PlayerHealth_MetaData[] = {
-		{ "Category", "MainPlayerController" },
-		{ "ModuleRelativePath", "MainPlayerController.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMainPlayerController_Statics::NewProp_PlayerHealth = { "PlayerHealth", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainPlayerController, PlayerHealth), METADATA_PARAMS(Z_Construct_UClass_AMainPlayerController_Statics::NewProp_PlayerHealth_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMainPlayerController_Statics::NewProp_PlayerHealth_MetaData)) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainPlayerController_Statics::NewProp_PlayerMaxHealth_MetaData[] = {
 		{ "Category", "MainPlayerController" },
 		{ "ModuleRelativePath", "MainPlayerController.h" },
@@ -352,7 +341,6 @@ void EmptyLinkFunctionForGeneratedCodeMainPlayerController() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainPlayerController_Statics::NewProp_TotalGunAmmo,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainPlayerController_Statics::NewProp_CurrentClip,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainPlayerController_Statics::NewProp_AmmoClip,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainPlayerController_Statics::NewProp_PlayerHealth,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainPlayerController_Statics::NewProp_PlayerMaxHealth,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainPlayerController_Statics::NewProp_EndScreenDisplay,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainPlayerController_Statics::NewProp_PlayerInterfaceDisplay,
@@ -388,7 +376,7 @@ void EmptyLinkFunctionForGeneratedCodeMainPlayerController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMainPlayerController, 3329627585);
+	IMPLEMENT_CLASS(AMainPlayerController, 38460843);
 	template<> CARBONPUSHTWO_API UClass* StaticClass<AMainPlayerController>()
 	{
 		return AMainPlayerController::StaticClass();

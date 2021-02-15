@@ -7,7 +7,6 @@
 #include "Blueprint/UserWidget.h"
 AMainPlayerController::AMainPlayerController()
 {
-
 }
 void AMainPlayerController::BeginPlay()
 {
@@ -39,9 +38,8 @@ void AMainPlayerController::Fire()
 		{
 			UGameplayStatics::PlaySoundAtLocation(GetWorld(), GunSound, Pawn->GetActorLocation(), 1.0f, 1.0f, 0.0f);
 			--CurrentClip;
-			PlayerHealth -= 10;
-			ABase_Character* character = Cast<ABase_Character>(GetPawn());
-			character->Fire();
+			//ABase_Character* character = Cast<ABase_Character>(GetPawn());
+			Pawn->Fire();
 		}
 	}
 }
@@ -52,7 +50,6 @@ void AMainPlayerController::Reload()
 	if (TotalGunAmmo > 0)
 	{
 		UGameplayStatics::PlaySoundAtLocation(GetWorld(), ReloadSound, Pawn->GetActorLocation(), 1.0f, 1.0f, 0.0f);
-		PlayerHealth = 100;
 		int ReloadAmount = AmmoClip - CurrentClip;
 		TotalGunAmmo -= ReloadAmount;
 		CurrentClip = AmmoClip;
@@ -63,8 +60,8 @@ void AMainPlayerController::Throwable()
 {
 	if (TotalThrowableAmmo > 0)
 	{
-		ABase_Character* character = Cast<ABase_Character>(GetPawn());
-		character->ThrowGrenade();
+		//ABase_Character* character = Cast<ABase_Character>(GetPawn());
+		Pawn->ThrowGrenade();
 	}
 }
 
@@ -104,6 +101,7 @@ void AMainPlayerController::WidgetLoader(FString LevelName)
 
 int AMainPlayerController::ReturnCurrentClip()
 {
+
 	return CurrentClip;
 }
 
@@ -115,6 +113,9 @@ int AMainPlayerController::ReturnTotalAmmo()
 float AMainPlayerController::ReturnPlayersHealthPercentage()
 {
 	//float HealthPercentage = PlayerHealth / PlayerMaxHealth;
+	//ABase_Character* character = Cast<ABase_Character>(GetPawn());
+	float PlayersHealth = 0.0f;
+	Pawn->ReturnPlayerStats(PlayersHealth);
 
-	return PlayerHealth / PlayerMaxHealth;
+	return PlayersHealth / PlayerMaxHealth;
 }

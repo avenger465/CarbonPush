@@ -44,8 +44,6 @@ private:
 
 	UPROPERTY(EditAnywhere)
 		float PlayerMaxHealth = 100.0f;
-	UPROPERTY(EditAnywhere)
-		float PlayerHealth = 100.0f;
 
 	UPROPERTY(EditAnywhere)
 		int AmmoClip = 20;

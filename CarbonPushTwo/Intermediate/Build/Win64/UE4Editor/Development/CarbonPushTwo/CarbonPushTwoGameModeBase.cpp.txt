@@ -16,23 +16,3 @@ E:\UNREAL ENGINE\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Di
 E:\UNREAL ENGINE\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
 E:\UNREAL ENGINE\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
 E:\UNREAL ENGINE\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
-C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Source\CarbonPushTwo\MainPlayerController.h
-C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Source\CarbonPushTwo\Base_Character.h
-E:\UNREAL ENGINE\UE_4.25\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
-E:\UNREAL ENGINE\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
-E:\UNREAL ENGINE\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
-E:\UNREAL ENGINE\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
-C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Source\CarbonPushTwo\CustomMovementComponent.h
-E:\UNREAL ENGINE\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
-E:\UNREAL ENGINE\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
-C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Inc\CarbonPushTwo\CustomMovementComponent.generated.h
-C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Source\CarbonPushTwo\Grenade.h
-E:\UNREAL ENGINE\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/ProjectileMovementComponent.h
-E:\UNREAL ENGINE\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ProjectileMovementComponent.generated.h
-C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Inc\CarbonPushTwo\Grenade.generated.h
-E:\UNREAL ENGINE\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
-E:\UNREAL ENGINE\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
-E:\UNREAL ENGINE\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
-E:\UNREAL ENGINE\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Inc\CarbonPushTwo\Base_Character.generated.h
-C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Inc\CarbonPushTwo\MainPlayerController.generated.h

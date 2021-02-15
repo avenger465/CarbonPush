@@ -35,6 +35,8 @@
 /FUNCTIONPADMIN
 "C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\CarbonPushTwoEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
 "C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\Base_Character.cpp.obj"
+"C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\BTService_LineOfSight.cpp.obj"
+"C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\BTService_UpdatePlayerPosition.cpp.obj"
 "C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\BTTask_GetRandomLocation.cpp.obj"
 "C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\CarbonPushTwo.cpp.obj"
 "C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\CarbonPushTwoGameModeBase.cpp.obj"
@@ -45,6 +47,8 @@
 "C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\MainPlayerController.cpp.obj"
 "C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\StartGameModeBase.cpp.obj"
 "C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\Base_Character.gen.cpp.obj"
+"C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\BTService_LineOfSight.gen.cpp.obj"
+"C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\BTService_UpdatePlayerPosition.gen.cpp.obj"
 "C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\BTTask_GetRandomLocation.gen.cpp.obj"
 "C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\CarbonPushTwo.init.gen.cpp.obj"
 "C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\CarbonPushTwoGameModeBase.gen.cpp.obj"

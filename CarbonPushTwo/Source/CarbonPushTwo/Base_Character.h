@@ -5,8 +5,11 @@
 #include "CoreMinimal.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "CarbonPushTwo/CarbonPushTwoGameModeBase.h"
 #include "CustomMovementComponent.h"
 #include "Grenade.h"
+#include "Components/SceneCaptureComponent2D.h"
+//#include "PaperSpriteComponent.h"
 
 #include "GameFramework/Character.h"
 #include "Base_Character.generated.h"
@@ -37,22 +40,38 @@ public:
 		void Fire();
 	UFUNCTION()
 		void ThrowGrenade();
+	UFUNCTION()
+		void ReturnPlayerStats(float &Health);
 
 private:
 	void MoveForwards(float AxisAmount);
 	void strafe(float AxisAmount);
 	void LookUp(float AxisAmount);
 	void Turn(float AxisAmount);
+	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent,
+		AController* EventInstigator, AActor* DamageCauser) override;
 
 	UPROPERTY(EditAnywhere)
 		UCameraComponent* Camera;
 	UPROPERTY(EditAnywhere)
 		USpringArmComponent* SpringArm;
 	UPROPERTY(EditAnywhere)
+		USpringArmComponent* MiniMapArm;
+	UPROPERTY(EditAnywhere)
 		USceneComponent* ProjectileSpawnPoint;
+	UPROPERTY(EditAnywhere)
+		USceneCaptureComponent2D* MiniMapCamera;
+	//UPROPERTY(EditAnywhere)
+	//	UPaperSpriteComponent* PlayerIcon;
+
 	UPROPERTY(EditAnywhere)
 		float SpringArmLength = 500.0f;
 	UPROPERTY(EditAnywhere)
 		TSubclassOf<AGrenade> Grenade;
+	UPROPERTY(EditAnywhere)
+		float PlayerHealth = 100.0f;
+
+	UPROPERTY()
+		ACarbonPushTwoGameModeBase* GameModeRef;
 
 };

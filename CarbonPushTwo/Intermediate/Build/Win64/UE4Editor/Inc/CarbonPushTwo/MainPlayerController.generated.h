@@ -78,7 +78,6 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMainPlayerController); \
 	FORCEINLINE static uint32 __PPO__PlayerInterfaceDisplay() { return STRUCT_OFFSET(AMainPlayerController, PlayerInterfaceDisplay); } \
 	FORCEINLINE static uint32 __PPO__EndScreenDisplay() { return STRUCT_OFFSET(AMainPlayerController, EndScreenDisplay); } \
 	FORCEINLINE static uint32 __PPO__PlayerMaxHealth() { return STRUCT_OFFSET(AMainPlayerController, PlayerMaxHealth); } \
-	FORCEINLINE static uint32 __PPO__PlayerHealth() { return STRUCT_OFFSET(AMainPlayerController, PlayerHealth); } \
 	FORCEINLINE static uint32 __PPO__AmmoClip() { return STRUCT_OFFSET(AMainPlayerController, AmmoClip); } \
 	FORCEINLINE static uint32 __PPO__CurrentClip() { return STRUCT_OFFSET(AMainPlayerController, CurrentClip); } \
 	FORCEINLINE static uint32 __PPO__TotalGunAmmo() { return STRUCT_OFFSET(AMainPlayerController, TotalGunAmmo); } \
