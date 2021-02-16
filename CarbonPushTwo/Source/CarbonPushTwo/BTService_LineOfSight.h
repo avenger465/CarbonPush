@@ -14,7 +14,6 @@ class CARBONPUSHTWO_API UBTService_LineOfSight : public UBTService_BlackboardBas
 {
 	GENERATED_BODY()
 
-
 protected:
 	virtual void TickNode(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory, float DeltaSeconds) override;
 

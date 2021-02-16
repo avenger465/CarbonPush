@@ -19,20 +19,30 @@ protected:
 	virtual void BeginPlay() override;
 
 public:
+	//Public functions that can be called from other objects
 	UFUNCTION()	
 		void GameOver(bool PlayerWon);
+
 	UFUNCTION()
 		void PointScored();
 
+	UFUNCTION()
+		int GetPoints();
 
 private:
+	//TargetPoints variable
 	UPROPERTY()
-		int targetPoints = 7;
+		int targetPoints = 10;
+
+	//PlayerPoints variable
 	UPROPERTY()
-		int userPoints = 1;
+		int PlayerPoints = 0;
+
+	//point variable
 	UPROPERTY()
 		int point = 1;
+
+	//levelDuration variable
 	UPROPERTY()
 		float LevelDuration = 5.0f;
-
 };

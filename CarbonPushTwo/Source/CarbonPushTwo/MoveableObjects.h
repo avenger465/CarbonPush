@@ -24,7 +24,7 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 private:
-
+	//StaticMesh Component
 	UPROPERTY(EditAnywhere)
 		UStaticMeshComponent* ObjectMesh;
 };

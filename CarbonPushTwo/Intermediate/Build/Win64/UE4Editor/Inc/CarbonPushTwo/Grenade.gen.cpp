@@ -81,7 +81,9 @@ void EmptyLinkFunctionForGeneratedCodeGrenade() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGrenade_OnHit_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "//Public function that can be called from other objects\n" },
 		{ "ModuleRelativePath", "Grenade.h" },
+		{ "ToolTip", "Public function that can be called from other objects" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGrenade_OnHit_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGrenade, nullptr, "OnHit", nullptr, nullptr, sizeof(Grenade_eventOnHit_Parms), Z_Construct_UFunction_AGrenade_OnHit_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AGrenade_OnHit_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00C40401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGrenade_OnHit_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AGrenade_OnHit_Statics::Function_MetaDataParams)) };
@@ -130,7 +132,7 @@ void EmptyLinkFunctionForGeneratedCodeGrenade() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_CarbonPushTwo,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AGrenade_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AGrenade_OnHit, "OnHit" }, // 3035938519
+		{ &Z_Construct_UFunction_AGrenade_OnHit, "OnHit" }, // 1390298101
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGrenade_Statics::Class_MetaDataParams[] = {
@@ -141,30 +143,38 @@ void EmptyLinkFunctionForGeneratedCodeGrenade() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGrenade_Statics::NewProp_ProjectileMovement_MetaData[] = {
 		{ "Category", "Grenade" },
+		{ "Comment", "//ProjectileMovement Component\n" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Grenade.h" },
+		{ "ToolTip", "ProjectileMovement Component" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGrenade_Statics::NewProp_ProjectileMovement = { "ProjectileMovement", nullptr, (EPropertyFlags)0x0040000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGrenade, ProjectileMovement), Z_Construct_UClass_UProjectileMovementComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGrenade_Statics::NewProp_ProjectileMovement_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGrenade_Statics::NewProp_ProjectileMovement_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGrenade_Statics::NewProp_GrenadeMesh_MetaData[] = {
 		{ "Category", "Grenade" },
+		{ "Comment", "//StaticMesh Component\n" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Grenade.h" },
+		{ "ToolTip", "StaticMesh Component" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGrenade_Statics::NewProp_GrenadeMesh = { "GrenadeMesh", nullptr, (EPropertyFlags)0x00400000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGrenade, GrenadeMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGrenade_Statics::NewProp_GrenadeMesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGrenade_Statics::NewProp_GrenadeMesh_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGrenade_Statics::NewProp_Damage_MetaData[] = {
 		{ "Category", "Grenade" },
+		{ "Comment", "//Damage variable\n" },
 		{ "ModuleRelativePath", "Grenade.h" },
+		{ "ToolTip", "Damage variable" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGrenade_Statics::NewProp_Damage = { "Damage", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGrenade, Damage), METADATA_PARAMS(Z_Construct_UClass_AGrenade_Statics::NewProp_Damage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGrenade_Statics::NewProp_Damage_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGrenade_Statics::NewProp_MovementSpeed_MetaData[] = {
 		{ "Category", "Grenade" },
+		{ "Comment", "//MovementSpeed variable\n" },
 		{ "ModuleRelativePath", "Grenade.h" },
+		{ "ToolTip", "MovementSpeed variable" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGrenade_Statics::NewProp_MovementSpeed = { "MovementSpeed", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGrenade, MovementSpeed), METADATA_PARAMS(Z_Construct_UClass_AGrenade_Statics::NewProp_MovementSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGrenade_Statics::NewProp_MovementSpeed_MetaData)) };
@@ -201,7 +211,7 @@ void EmptyLinkFunctionForGeneratedCodeGrenade() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGrenade, 680523329);
+	IMPLEMENT_CLASS(AGrenade, 704644901);
 	template<> CARBONPUSHTWO_API UClass* StaticClass<AGrenade>()
 	{
 		return AGrenade::StaticClass();

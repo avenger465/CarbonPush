@@ -16,5 +16,4 @@ class CARBONPUSHTWO_API UBTTask_Shoot : public UBTTask_BlackboardBase
 
 protected:
 	virtual EBTNodeResult::Type ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory) override;
-	
 };

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\CarbonPushTwo.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{F42EF5FF-CB57-44C2-97B2-102E7EAEB8DF}</UniqueIdentifier>
+      <UniqueIdentifier>{18479ADA-A585-4B84-A1C9-FECA4F030010}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\CarbonPushTwo.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{DA995D00-3FBF-4F9A-831F-5C7002CC4922}</UniqueIdentifier>
+      <UniqueIdentifier>{49475DE1-408F-4AAF-8E22-FA2F45A778E6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\CarbonPushTwo">
-      <UniqueIdentifier>{87700336-06E0-4A84-83EE-6680F97FDE7E}</UniqueIdentifier>
+      <UniqueIdentifier>{26021611-FFCF-48BA-9FA2-DE2DD04FCAE7}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\CarbonPushTwo\Base_Character.cpp">
       <Filter>Source\CarbonPushTwo</Filter>
@@ -80,10 +80,10 @@
     <ClInclude Include="..\..\Source\CarbonPushTwo\CardboardBox.h">
       <Filter>Source\CarbonPushTwo</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\CarbonPushTwo\CustomMovementComponent.cpp">
+    <ClCompile Include="..\..\Source\CarbonPushTwo\DestructibleActors.cpp">
       <Filter>Source\CarbonPushTwo</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\CarbonPushTwo\CustomMovementComponent.h">
+    <ClInclude Include="..\..\Source\CarbonPushTwo\DestructibleActors.h">
       <Filter>Source\CarbonPushTwo</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\CarbonPushTwo\EnemyAIController.cpp">
@@ -108,12 +108,6 @@
       <Filter>Source\CarbonPushTwo</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\CarbonPushTwo\MoveableObjects.h">
-      <Filter>Source\CarbonPushTwo</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\CarbonPushTwo\StartGameModeBase.cpp">
-      <Filter>Source\CarbonPushTwo</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\CarbonPushTwo\StartGameModeBase.h">
       <Filter>Source\CarbonPushTwo</Filter>
     </ClInclude>
   </ItemGroup>

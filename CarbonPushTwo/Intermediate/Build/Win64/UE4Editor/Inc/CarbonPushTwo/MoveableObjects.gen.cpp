@@ -53,8 +53,10 @@ void EmptyLinkFunctionForGeneratedCodeMoveableObjects() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMoveableObjects_Statics::NewProp_ObjectMesh_MetaData[] = {
 		{ "Category", "MoveableObjects" },
+		{ "Comment", "//StaticMesh Component\n" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "MoveableObjects.h" },
+		{ "ToolTip", "StaticMesh Component" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMoveableObjects_Statics::NewProp_ObjectMesh = { "ObjectMesh", nullptr, (EPropertyFlags)0x0040000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMoveableObjects, ObjectMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMoveableObjects_Statics::NewProp_ObjectMesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMoveableObjects_Statics::NewProp_ObjectMesh_MetaData)) };
@@ -88,7 +90,7 @@ void EmptyLinkFunctionForGeneratedCodeMoveableObjects() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMoveableObjects, 666607577);
+	IMPLEMENT_CLASS(AMoveableObjects, 396458408);
 	template<> CARBONPUSHTWO_API UClass* StaticClass<AMoveableObjects>()
 	{
 		return AMoveableObjects::StaticClass();

@@ -26,15 +26,23 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 private:
+	//MovementSpeed variable
 	UPROPERTY(EditAnywhere)
 		float MovementSpeed = 1000.0f;
+
+	//Damage variable
 	UPROPERTY(EditAnywhere)
 		float Damage = 10.0f;
+
+	//StaticMesh Component
 	UPROPERTY(VisibleAnywhere)
 		UStaticMeshComponent* GrenadeMesh;
+
+	//ProjectileMovement Component
 	UPROPERTY(EditAnywhere)
 		UProjectileMovementComponent* ProjectileMovement;
 
+	//Public function that can be called from other objects
 	UFUNCTION()
 		void OnHit(AActor* SelfActor, AActor* OtherActor, FVector NormalImpulse,
 			const FHitResult& Hit);

@@ -125,7 +125,9 @@ void EmptyLinkFunctionForGeneratedCodeCardboardBox() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACardboardBox_OnOverlapBegin_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "//Function to be called when an Actor enters the overlap with this class\n" },
 		{ "ModuleRelativePath", "CardboardBox.h" },
+		{ "ToolTip", "Function to be called when an Actor enters the overlap with this class" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ACardboardBox_OnOverlapBegin_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACardboardBox, nullptr, "OnOverlapBegin", nullptr, nullptr, sizeof(CardboardBox_eventOnOverlapBegin_Parms), Z_Construct_UFunction_ACardboardBox_OnOverlapBegin_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ACardboardBox_OnOverlapBegin_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00440401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACardboardBox_OnOverlapBegin_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ACardboardBox_OnOverlapBegin_Statics::Function_MetaDataParams)) };
@@ -185,7 +187,9 @@ void EmptyLinkFunctionForGeneratedCodeCardboardBox() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACardboardBox_OnOverlapEnd_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "//Function to be called when an Actor leaves the overlap with this class\n" },
 		{ "ModuleRelativePath", "CardboardBox.h" },
+		{ "ToolTip", "Function to be called when an Actor leaves the overlap with this class" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ACardboardBox_OnOverlapEnd_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACardboardBox, nullptr, "OnOverlapEnd", nullptr, nullptr, sizeof(CardboardBox_eventOnOverlapEnd_Parms), Z_Construct_UFunction_ACardboardBox_OnOverlapEnd_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ACardboardBox_OnOverlapEnd_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACardboardBox_OnOverlapEnd_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ACardboardBox_OnOverlapEnd_Statics::Function_MetaDataParams)) };
@@ -230,8 +234,8 @@ void EmptyLinkFunctionForGeneratedCodeCardboardBox() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_CarbonPushTwo,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ACardboardBox_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ACardboardBox_OnOverlapBegin, "OnOverlapBegin" }, // 2840983611
-		{ &Z_Construct_UFunction_ACardboardBox_OnOverlapEnd, "OnOverlapEnd" }, // 2295349432
+		{ &Z_Construct_UFunction_ACardboardBox_OnOverlapBegin, "OnOverlapBegin" }, // 929326278
+		{ &Z_Construct_UFunction_ACardboardBox_OnOverlapEnd, "OnOverlapEnd" }, // 3498255849
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACardboardBox_Statics::Class_MetaDataParams[] = {
@@ -241,23 +245,29 @@ void EmptyLinkFunctionForGeneratedCodeCardboardBox() {}
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACardboardBox_Statics::NewProp_GameModeRef_MetaData[] = {
+		{ "Comment", "//Reference to the ACarbonPushTwoGameModeBase class\n" },
 		{ "ModuleRelativePath", "CardboardBox.h" },
+		{ "ToolTip", "Reference to the ACarbonPushTwoGameModeBase class" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACardboardBox_Statics::NewProp_GameModeRef = { "GameModeRef", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACardboardBox, GameModeRef), Z_Construct_UClass_ACarbonPushTwoGameModeBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACardboardBox_Statics::NewProp_GameModeRef_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACardboardBox_Statics::NewProp_GameModeRef_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACardboardBox_Statics::NewProp_CollisionBox_MetaData[] = {
 		{ "Category", "CardboardBox" },
+		{ "Comment", "//Box Component\n" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "CardboardBox.h" },
+		{ "ToolTip", "Box Component" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACardboardBox_Statics::NewProp_CollisionBox = { "CollisionBox", nullptr, (EPropertyFlags)0x00400000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACardboardBox, CollisionBox), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACardboardBox_Statics::NewProp_CollisionBox_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACardboardBox_Statics::NewProp_CollisionBox_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACardboardBox_Statics::NewProp_cardBoardBoxMesh_MetaData[] = {
 		{ "Category", "CardboardBox" },
+		{ "Comment", "//StaticMesh Component\n" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "CardboardBox.h" },
+		{ "ToolTip", "StaticMesh Component" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACardboardBox_Statics::NewProp_cardBoardBoxMesh = { "cardBoardBoxMesh", nullptr, (EPropertyFlags)0x00400000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACardboardBox, cardBoardBoxMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACardboardBox_Statics::NewProp_cardBoardBoxMesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACardboardBox_Statics::NewProp_cardBoardBoxMesh_MetaData)) };
@@ -293,7 +303,7 @@ void EmptyLinkFunctionForGeneratedCodeCardboardBox() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACardboardBox, 1738448318);
+	IMPLEMENT_CLASS(ACardboardBox, 980119572);
 	template<> CARBONPUSHTWO_API UClass* StaticClass<ACardboardBox>()
 	{
 		return ACardboardBox::StaticClass();

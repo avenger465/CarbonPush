@@ -230,6 +230,9 @@
 /I Runtime\Experimental\GeometryCollectionSimulationCore\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
+/I ..\Plugins\Runtime\ApexDestruction\Intermediate\Build\Win64\UE4Editor\Inc\ApexDestruction
+/I ..\Plugins\Runtime\ApexDestruction\Source
+/I ..\Plugins\Runtime\ApexDestruction\Source\ApexDestruction\Public
 /I C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Inc\CarbonPushTwo
 /I C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Source
 /I ThirdParty\PhysX3\PxShared\include

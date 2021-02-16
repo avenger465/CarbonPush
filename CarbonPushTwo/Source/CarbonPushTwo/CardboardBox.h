@@ -26,17 +26,24 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 private:
+	//StaticMesh Component
 	UPROPERTY(VisibleAnywhere)
 		UStaticMeshComponent* cardBoardBoxMesh;
+
+	//Box Component
 	UPROPERTY(VisibleAnywhere)
 		UBoxComponent* CollisionBox;
+
+	//Function to be called when an Actor enters the overlap with this class
 	UFUNCTION()
 		void OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor,
 			UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+
+	//Function to be called when an Actor leaves the overlap with this class
 	UFUNCTION()
 		void OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 
+	//Reference to the ACarbonPushTwoGameModeBase class
 	UPROPERTY()
 		ACarbonPushTwoGameModeBase* GameModeRef;
-
 };

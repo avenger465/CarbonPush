@@ -46,7 +46,6 @@ void EmptyLinkFunctionForGeneratedCodeEnemyAIController() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyAIController_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * \n */" },
 		{ "HideCategories", "Collision Rendering Utilities|Transformation" },
 		{ "IncludePath", "EnemyAIController.h" },
 		{ "ModuleRelativePath", "EnemyAIController.h" },
@@ -55,7 +54,9 @@ void EmptyLinkFunctionForGeneratedCodeEnemyAIController() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyAIController_Statics::NewProp_EnemyBehaviourTree_MetaData[] = {
 		{ "Category", "EnemyAIController" },
+		{ "Comment", "//BehaviourTree Component\n" },
 		{ "ModuleRelativePath", "EnemyAIController.h" },
+		{ "ToolTip", "BehaviourTree Component" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEnemyAIController_Statics::NewProp_EnemyBehaviourTree = { "EnemyBehaviourTree", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemyAIController, EnemyBehaviourTree), Z_Construct_UClass_UBehaviorTree_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AEnemyAIController_Statics::NewProp_EnemyBehaviourTree_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AEnemyAIController_Statics::NewProp_EnemyBehaviourTree_MetaData)) };
@@ -89,7 +90,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyAIController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEnemyAIController, 2661490245);
+	IMPLEMENT_CLASS(AEnemyAIController, 2281206087);
 	template<> CARBONPUSHTWO_API UClass* StaticClass<AEnemyAIController>()
 	{
 		return AEnemyAIController::StaticClass();

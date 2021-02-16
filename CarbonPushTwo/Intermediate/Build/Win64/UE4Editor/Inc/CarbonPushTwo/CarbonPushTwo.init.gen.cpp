@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeCarbonPushTwo_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x1D56DD30,
-				0x93A134ED,
+				0x31D3F22F,
+				0x2507D1FB,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

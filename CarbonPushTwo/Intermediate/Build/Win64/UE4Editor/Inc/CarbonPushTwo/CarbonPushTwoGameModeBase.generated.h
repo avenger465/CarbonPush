@@ -16,12 +16,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define CarbonPushTwo_Source_CarbonPushTwo_CarbonPushTwoGameModeBase_h_16_SPARSE_DATA
 #define CarbonPushTwo_Source_CarbonPushTwo_CarbonPushTwoGameModeBase_h_16_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetPoints); \
 	DECLARE_FUNCTION(execPointScored); \
 	DECLARE_FUNCTION(execGameOver);
 
 
 #define CarbonPushTwo_Source_CarbonPushTwo_CarbonPushTwoGameModeBase_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execGetPoints); \
 	DECLARE_FUNCTION(execPointScored); \
 	DECLARE_FUNCTION(execGameOver);
 
@@ -72,7 +74,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACarbonPushTwoGameModeBase); \
 
 #define CarbonPushTwo_Source_CarbonPushTwo_CarbonPushTwoGameModeBase_h_16_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__targetPoints() { return STRUCT_OFFSET(ACarbonPushTwoGameModeBase, targetPoints); } \
-	FORCEINLINE static uint32 __PPO__userPoints() { return STRUCT_OFFSET(ACarbonPushTwoGameModeBase, userPoints); } \
+	FORCEINLINE static uint32 __PPO__PlayerPoints() { return STRUCT_OFFSET(ACarbonPushTwoGameModeBase, PlayerPoints); } \
 	FORCEINLINE static uint32 __PPO__point() { return STRUCT_OFFSET(ACarbonPushTwoGameModeBase, point); } \
 	FORCEINLINE static uint32 __PPO__LevelDuration() { return STRUCT_OFFSET(ACarbonPushTwoGameModeBase, LevelDuration); }
 
