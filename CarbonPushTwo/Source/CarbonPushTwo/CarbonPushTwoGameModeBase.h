@@ -19,7 +19,7 @@ protected:
 	virtual void BeginPlay() override;
 
 public:
-	UFUNCTION()
+	UFUNCTION()	
 		void GameOver(bool PlayerWon);
 	UFUNCTION()
 		void PointScored();
@@ -27,9 +27,9 @@ public:
 
 private:
 	UPROPERTY()
-		int targetPoints = 5;
+		int targetPoints = 7;
 	UPROPERTY()
-		int userPoints = 0;
+		int userPoints = 1;
 	UPROPERTY()
 		int point = 1;
 	UPROPERTY()

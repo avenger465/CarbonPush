@@ -61,8 +61,8 @@ private:
 		USceneComponent* ProjectileSpawnPoint;
 	UPROPERTY(EditAnywhere)
 		USceneCaptureComponent2D* MiniMapCamera;
-	//UPROPERTY(EditAnywhere)
-	//	UPaperSpriteComponent* PlayerIcon;
+	UPROPERTY(EditAnywhere)
+		float ImpulseForce = 100.0f;
 
 	UPROPERTY(EditAnywhere)
 		float SpringArmLength = 500.0f;

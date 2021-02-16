@@ -2,6 +2,7 @@
 
 
 #include "Base_Character.h"
+#include "MoveableObjects.h"
 #include "Kismet/GameplayStatics.h"
 
 
@@ -88,20 +89,17 @@ void ABase_Character::Turn(float AxisAmount)
 
 float ABase_Character::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser)
 {
-	if (PlayerHealth < 0.5f)
+	if (PlayerHealth <= 0.0f)
 	{ 
 		if (GetOwner() != nullptr)
 		{
-			UE_LOG(LogTemp, Warning, TEXT("Does Exist "));
+			GetOwner()->Destroy();
+			//GetOwner()->BeginDestroy();//Destroy();
 		}
 		else
 		{
 			UE_LOG(LogTemp, Warning, TEXT("Doesn't Exist "));
 		}
-		//Destroy();
-		//GetWorld()->ForceGarbageCollection(true);
-		//UE_LOG(LogTemp, Warning, TEXT("Destroyed "));
-		//GameModeRef->GameOver(true);
 	}
 	else
 	{
@@ -137,13 +135,19 @@ void ABase_Character::Fire()
 
 	FHitResult Hit;
 	bool bDidHit = GetWorld()->LineTraceSingleByChannel(Hit, Location, End, ECC_Visibility);
-	AActor* ActorHit = Hit.GetActor();
-	if (ActorHit != nullptr)
+
+	if (bDidHit && Hit.GetActor() != nullptr)
 	{
-		if ((bDidHit && ActorHit->GetClass()->IsChildOf((ABase_Character::StaticClass()))) || bDidHit)
+		if (Cast<ABase_Character>(Hit.GetActor()))
 		{
-			UGameplayStatics::ApplyDamage(ActorHit, 50, GetOwner()->GetInstigatorController(), this, UDamageType::StaticClass());
+			UGameplayStatics::ApplyDamage(Cast<ABase_Character>(Hit.GetActor()), 50, GetOwner()->GetInstigatorController(), this, UDamageType::StaticClass());
 			UE_LOG(LogTemp, Warning, TEXT("Hit %s"), *Hit.GetActor()->GetName());
+		}
+		else if (Cast<AMoveableObjects>(Hit.GetActor()))
+		{
+			UPrimitiveComponent* RootComp = Cast<UPrimitiveComponent>(Hit.GetActor()->GetRootComponent());
+			UE_LOG(LogTemp, Warning, TEXT("Hi: %s"), *Hit.GetActor()->GetName());
+			RootComp->AddImpulse(Rotation.Vector() * ImpulseForce * RootComp->GetMass());
 		}
 		else
 		{

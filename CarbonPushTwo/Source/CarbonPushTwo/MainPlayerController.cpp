@@ -14,6 +14,7 @@ void AMainPlayerController::BeginPlay()
 	StartDisplay = CreateWidget(this, StartWidget);	
 	PlayerInterfaceDisplay = CreateWidget(this, PlayerInterfaceWidget);
 	EndScreenDisplay = CreateWidget(this, EndScreenWidget);
+	RulesScreenDisplay = CreateWidget(this, RulesScreenWidget);
 	Level = UGameplayStatics::GetCurrentLevelName(GetWorld(), true);
 	UE_LOG(LogTemp, Warning, TEXT("Map: %s"), *FString(Level));
 	WidgetLoader(Level);
@@ -60,7 +61,6 @@ void AMainPlayerController::Throwable()
 {
 	if (TotalThrowableAmmo > 0)
 	{
-		//ABase_Character* character = Cast<ABase_Character>(GetPawn());
 		Pawn->ThrowGrenade();
 	}
 }
@@ -74,7 +74,10 @@ void AMainPlayerController::WidgetLoader(FString LevelName)
 			StartDisplay->AddToViewport();
 			PlayerInterfaceDisplay->RemoveFromViewport();
 			EndScreenDisplay->RemoveFromViewport();
+			RulesScreenDisplay->RemoveFromViewport();
 			UE_LOG(LogTemp, Warning, TEXT("Carbon"));
+			SetInputMode(FInputModeUIOnly());
+			bShowMouseCursor = true;
 		}
 	}
 	else if (LevelName == "Main_Screen")
@@ -84,7 +87,10 @@ void AMainPlayerController::WidgetLoader(FString LevelName)
 			PlayerInterfaceDisplay->AddToViewport();
 			StartDisplay->RemoveFromViewport();
 			EndScreenDisplay->RemoveFromViewport();
+			RulesScreenDisplay->RemoveFromViewport();
 			UE_LOG(LogTemp, Warning, TEXT("Gun"));
+			SetInputMode(FInputModeGameOnly());
+			bShowMouseCursor = false;
 		}
 	}
 	else if (LevelName == "End_Screen")
@@ -94,7 +100,23 @@ void AMainPlayerController::WidgetLoader(FString LevelName)
 			EndScreenDisplay->AddToViewport();
 			StartDisplay->RemoveFromViewport();
 			PlayerInterfaceDisplay->RemoveFromViewport();
+			RulesScreenDisplay->RemoveFromViewport();
 			UE_LOG(LogTemp, Warning, TEXT("End"));
+			SetInputMode(FInputModeUIOnly());
+			bShowMouseCursor = true;
+		}
+	}
+	else if (LevelName == "Rules_Screen")
+	{
+		if (RulesScreenDisplay != nullptr)
+		{
+			RulesScreenDisplay->AddToViewport();
+			StartDisplay->RemoveFromViewport();
+			PlayerInterfaceDisplay->RemoveFromViewport();
+			EndScreenDisplay->RemoveFromViewport();
+			UE_LOG(LogTemp, Warning, TEXT("Rules"));
+			SetInputMode(FInputModeUIOnly());
+			bShowMouseCursor = true;
 		}
 	}
 }

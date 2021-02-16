@@ -61,7 +61,6 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEnemyAIController); \
 
 
 #define CarbonPushTwo_Source_CarbonPushTwo_EnemyAIController_h_15_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__Waypoints() { return STRUCT_OFFSET(AEnemyAIController, Waypoints); } \
 	FORCEINLINE static uint32 __PPO__EnemyBehaviourTree() { return STRUCT_OFFSET(AEnemyAIController, EnemyBehaviourTree); }
 
 

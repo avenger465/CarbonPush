@@ -14,7 +14,7 @@ void UBTService_LineOfSight::TickNode(UBehaviorTreeComponent& OwnerComp, uint8* 
 	AAIController* EnemyAIController = OwnerComp.GetAIOwner();
 	APawn* PlayerPawn = UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
 
-	if (EnemyAIController->LineOfSightTo(PlayerPawn)/* && InFrontOf(PlayerPawn, EnemyAIController)*/)
+	if (EnemyAIController->LineOfSightTo(PlayerPawn) && InFrontOf(PlayerPawn, EnemyAIController))
 	{
 		OwnerComp.GetBlackboardComponent()->SetValueAsBool(GetSelectedBlackboardKey(), true);
 	}
@@ -27,7 +27,6 @@ void UBTService_LineOfSight::TickNode(UBehaviorTreeComponent& OwnerComp, uint8* 
 bool UBTService_LineOfSight::InFrontOf(AActor* ActorToCheck, AAIController* EnemyController)
 {
 	APawn* EnemyPawn = EnemyController->GetPawn();
-	//APawn* AIPawn = AAIController::GetPawn();//GetPawn();
 	FVector AIForwardVector = EnemyPawn->GetActorForwardVector();
 	FVector PlayerPositionVector = ActorToCheck->GetActorLocation();
 	FVector AIPositionVector = EnemyPawn->GetActorLocation();

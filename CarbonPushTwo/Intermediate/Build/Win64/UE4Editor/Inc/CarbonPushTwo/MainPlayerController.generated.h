@@ -74,9 +74,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMainPlayerController); \
 	FORCEINLINE static uint32 __PPO__StartWidget() { return STRUCT_OFFSET(AMainPlayerController, StartWidget); } \
 	FORCEINLINE static uint32 __PPO__PlayerInterfaceWidget() { return STRUCT_OFFSET(AMainPlayerController, PlayerInterfaceWidget); } \
 	FORCEINLINE static uint32 __PPO__EndScreenWidget() { return STRUCT_OFFSET(AMainPlayerController, EndScreenWidget); } \
+	FORCEINLINE static uint32 __PPO__RulesScreenWidget() { return STRUCT_OFFSET(AMainPlayerController, RulesScreenWidget); } \
 	FORCEINLINE static uint32 __PPO__StartDisplay() { return STRUCT_OFFSET(AMainPlayerController, StartDisplay); } \
 	FORCEINLINE static uint32 __PPO__PlayerInterfaceDisplay() { return STRUCT_OFFSET(AMainPlayerController, PlayerInterfaceDisplay); } \
 	FORCEINLINE static uint32 __PPO__EndScreenDisplay() { return STRUCT_OFFSET(AMainPlayerController, EndScreenDisplay); } \
+	FORCEINLINE static uint32 __PPO__RulesScreenDisplay() { return STRUCT_OFFSET(AMainPlayerController, RulesScreenDisplay); } \
 	FORCEINLINE static uint32 __PPO__PlayerMaxHealth() { return STRUCT_OFFSET(AMainPlayerController, PlayerMaxHealth); } \
 	FORCEINLINE static uint32 __PPO__AmmoClip() { return STRUCT_OFFSET(AMainPlayerController, AmmoClip); } \
 	FORCEINLINE static uint32 __PPO__CurrentClip() { return STRUCT_OFFSET(AMainPlayerController, CurrentClip); } \

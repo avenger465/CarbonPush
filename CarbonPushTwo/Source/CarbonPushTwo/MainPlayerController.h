@@ -34,6 +34,8 @@ private:
 		TSubclassOf<UUserWidget> PlayerInterfaceWidget;
 	UPROPERTY(EditAnywhere)
 		TSubclassOf<UUserWidget> EndScreenWidget;
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<UUserWidget> RulesScreenWidget;
 
 	UPROPERTY()
 		UUserWidget* StartDisplay;
@@ -41,6 +43,8 @@ private:
 		UUserWidget* PlayerInterfaceDisplay;
 	UPROPERTY()
 		UUserWidget* EndScreenDisplay;
+	UPROPERTY()
+		UUserWidget* RulesScreenDisplay;
 
 	UPROPERTY(EditAnywhere)
 		float PlayerMaxHealth = 100.0f;

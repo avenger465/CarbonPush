@@ -76,6 +76,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABase_Character); \
 	FORCEINLINE static uint32 __PPO__MiniMapArm() { return STRUCT_OFFSET(ABase_Character, MiniMapArm); } \
 	FORCEINLINE static uint32 __PPO__ProjectileSpawnPoint() { return STRUCT_OFFSET(ABase_Character, ProjectileSpawnPoint); } \
 	FORCEINLINE static uint32 __PPO__MiniMapCamera() { return STRUCT_OFFSET(ABase_Character, MiniMapCamera); } \
+	FORCEINLINE static uint32 __PPO__ImpulseForce() { return STRUCT_OFFSET(ABase_Character, ImpulseForce); } \
 	FORCEINLINE static uint32 __PPO__SpringArmLength() { return STRUCT_OFFSET(ABase_Character, SpringArmLength); } \
 	FORCEINLINE static uint32 __PPO__Grenade() { return STRUCT_OFFSET(ABase_Character, Grenade); } \
 	FORCEINLINE static uint32 __PPO__PlayerHealth() { return STRUCT_OFFSET(ABase_Character, PlayerHealth); } \

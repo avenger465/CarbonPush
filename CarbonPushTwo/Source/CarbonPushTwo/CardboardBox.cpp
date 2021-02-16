@@ -40,12 +40,13 @@ void ACardboardBox::Tick(float DeltaTime)
 void ACardboardBox::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
 	UE_LOG(LogTemp, Warning, TEXT("Point"));
-	//GameModeRef->PointScored();
-	//Destroy();
+	Destroy();
 }
 
 void ACardboardBox::OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
 {
+	//GameModeRef->PointScored();
+	GameModeRef->PointScored();
 	//UE_LOG(LogTemp, Warning, TEXT("Hi "));
 }
 

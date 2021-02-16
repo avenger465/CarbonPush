@@ -3,6 +3,7 @@
 
 #include "Grenade.h"
 #include "CardboardBox.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 AGrenade::AGrenade()
@@ -17,7 +18,9 @@ AGrenade::AGrenade()
 	ProjectileMovement = CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("Projectile Movement"));
 	ProjectileMovement->MaxSpeed = MovementSpeed;
 	ProjectileMovement->InitialSpeed = MovementSpeed;
-	InitialLifeSpan = 10.0f;
+
+
+	InitialLifeSpan = 5.0f;
 
 }
 
@@ -35,12 +38,17 @@ void AGrenade::Tick(float DeltaTime)
 
 }
 
+
 void AGrenade::OnHit(AActor* SelfActor, AActor* OtherActor, FVector NormalImpulse, const FHitResult& Hit)
 {
-	if (OtherActor->GetClass()->IsChildOf(ACardboardBox::StaticClass()))
+	if (OtherActor != nullptr)
 	{
-		Destroy();
-		UE_LOG(LogTemp, Warning, TEXT("Collided with CardboardBox"));
+		if (OtherActor->GetClass()->IsChildOf(ACardboardBox::StaticClass()))
+		{
+			UE_LOG(LogTemp, Warning, TEXT("Collided with CardboardBox"));
+			Destroy();
+		}
 	}
+	
 }
 

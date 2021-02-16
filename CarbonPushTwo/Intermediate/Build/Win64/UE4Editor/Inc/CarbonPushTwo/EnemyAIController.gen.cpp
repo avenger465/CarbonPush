@@ -18,7 +18,6 @@ void EmptyLinkFunctionForGeneratedCodeEnemyAIController() {}
 	AIMODULE_API UClass* Z_Construct_UClass_AAIController();
 	UPackage* Z_Construct_UPackage__Script_CarbonPushTwo();
 	AIMODULE_API UClass* Z_Construct_UClass_UBehaviorTree_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 // End Cross Module References
 	void AEnemyAIController::StaticRegisterNativesAEnemyAIController()
 	{
@@ -37,11 +36,6 @@ void EmptyLinkFunctionForGeneratedCodeEnemyAIController() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_EnemyBehaviourTree_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_EnemyBehaviourTree;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Waypoints_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_Waypoints;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Waypoints_Inner;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -65,17 +59,8 @@ void EmptyLinkFunctionForGeneratedCodeEnemyAIController() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEnemyAIController_Statics::NewProp_EnemyBehaviourTree = { "EnemyBehaviourTree", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemyAIController, EnemyBehaviourTree), Z_Construct_UClass_UBehaviorTree_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AEnemyAIController_Statics::NewProp_EnemyBehaviourTree_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AEnemyAIController_Statics::NewProp_EnemyBehaviourTree_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyAIController_Statics::NewProp_Waypoints_MetaData[] = {
-		{ "ModuleRelativePath", "EnemyAIController.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AEnemyAIController_Statics::NewProp_Waypoints = { "Waypoints", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemyAIController, Waypoints), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AEnemyAIController_Statics::NewProp_Waypoints_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AEnemyAIController_Statics::NewProp_Waypoints_MetaData)) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEnemyAIController_Statics::NewProp_Waypoints_Inner = { "Waypoints", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AEnemyAIController_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyAIController_Statics::NewProp_EnemyBehaviourTree,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyAIController_Statics::NewProp_Waypoints,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyAIController_Statics::NewProp_Waypoints_Inner,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AEnemyAIController_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AEnemyAIController>::IsAbstract,
@@ -104,7 +89,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyAIController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEnemyAIController, 3356055258);
+	IMPLEMENT_CLASS(AEnemyAIController, 2661490245);
 	template<> CARBONPUSHTWO_API UClass* StaticClass<AEnemyAIController>()
 	{
 		return AEnemyAIController::StaticClass();

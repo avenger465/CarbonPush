@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\CarbonPushTwo.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{F042ED8D-93D6-4B65-8376-7C188EF49B73}</UniqueIdentifier>
+      <UniqueIdentifier>{F42EF5FF-CB57-44C2-97B2-102E7EAEB8DF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\CarbonPushTwo.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{FEC3D42A-D652-46AB-AD09-EBC6EE88AE44}</UniqueIdentifier>
+      <UniqueIdentifier>{DA995D00-3FBF-4F9A-831F-5C7002CC4922}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\CarbonPushTwo">
-      <UniqueIdentifier>{AE0C2AFF-4430-42C8-A643-5DE8ADD16E85}</UniqueIdentifier>
+      <UniqueIdentifier>{87700336-06E0-4A84-83EE-6680F97FDE7E}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\CarbonPushTwo\Base_Character.cpp">
       <Filter>Source\CarbonPushTwo</Filter>
@@ -51,6 +51,12 @@
       <Filter>Source\CarbonPushTwo</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\CarbonPushTwo\BTTask_GetRandomLocation.h">
+      <Filter>Source\CarbonPushTwo</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CarbonPushTwo\BTTask_Shoot.cpp">
+      <Filter>Source\CarbonPushTwo</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CarbonPushTwo\BTTask_Shoot.h">
       <Filter>Source\CarbonPushTwo</Filter>
     </ClInclude>
     <None Include="..\..\Source\CarbonPushTwo\CarbonPushTwo.Build.cs">
@@ -96,6 +102,12 @@
       <Filter>Source\CarbonPushTwo</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\CarbonPushTwo\MainPlayerController.h">
+      <Filter>Source\CarbonPushTwo</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CarbonPushTwo\MoveableObjects.cpp">
+      <Filter>Source\CarbonPushTwo</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CarbonPushTwo\MoveableObjects.h">
       <Filter>Source\CarbonPushTwo</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\CarbonPushTwo\StartGameModeBase.cpp">

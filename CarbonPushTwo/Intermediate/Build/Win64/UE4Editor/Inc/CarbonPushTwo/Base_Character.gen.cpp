@@ -162,6 +162,10 @@ void EmptyLinkFunctionForGeneratedCodeBase_Character() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_SpringArmLength;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ImpulseForce_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ImpulseForce;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MiniMapCamera_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MiniMapCamera;
@@ -228,12 +232,17 @@ void EmptyLinkFunctionForGeneratedCodeBase_Character() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABase_Character_Statics::NewProp_SpringArmLength_MetaData[] = {
 		{ "Category", "Base_Character" },
-		{ "Comment", "//UPROPERTY(EditAnywhere)\n//\x09UPaperSpriteComponent* PlayerIcon;\n" },
 		{ "ModuleRelativePath", "Base_Character.h" },
-		{ "ToolTip", "UPROPERTY(EditAnywhere)\n       UPaperSpriteComponent* PlayerIcon;" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABase_Character_Statics::NewProp_SpringArmLength = { "SpringArmLength", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABase_Character, SpringArmLength), METADATA_PARAMS(Z_Construct_UClass_ABase_Character_Statics::NewProp_SpringArmLength_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABase_Character_Statics::NewProp_SpringArmLength_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABase_Character_Statics::NewProp_ImpulseForce_MetaData[] = {
+		{ "Category", "Base_Character" },
+		{ "ModuleRelativePath", "Base_Character.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABase_Character_Statics::NewProp_ImpulseForce = { "ImpulseForce", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABase_Character, ImpulseForce), METADATA_PARAMS(Z_Construct_UClass_ABase_Character_Statics::NewProp_ImpulseForce_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABase_Character_Statics::NewProp_ImpulseForce_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABase_Character_Statics::NewProp_MiniMapCamera_MetaData[] = {
 		{ "Category", "Base_Character" },
@@ -287,6 +296,7 @@ void EmptyLinkFunctionForGeneratedCodeBase_Character() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase_Character_Statics::NewProp_PlayerHealth,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase_Character_Statics::NewProp_Grenade,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase_Character_Statics::NewProp_SpringArmLength,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase_Character_Statics::NewProp_ImpulseForce,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase_Character_Statics::NewProp_MiniMapCamera,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase_Character_Statics::NewProp_ProjectileSpawnPoint,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase_Character_Statics::NewProp_MiniMapArm,
@@ -321,7 +331,7 @@ void EmptyLinkFunctionForGeneratedCodeBase_Character() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABase_Character, 844415038);
+	IMPLEMENT_CLASS(ABase_Character, 1430744128);
 	template<> CARBONPUSHTWO_API UClass* StaticClass<ABase_Character>()
 	{
 		return ABase_Character::StaticClass();

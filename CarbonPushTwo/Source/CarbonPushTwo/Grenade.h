@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/ProjectileMovementComponent.h"
+#include "PhysicsEngine/RadialForceComponent.h"
 #include "GameFramework/Actor.h"
 #include "Grenade.generated.h"
 

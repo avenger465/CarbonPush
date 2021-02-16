@@ -29,7 +29,7 @@ void ACarbonPushTwoGameModeBase::PointScored()
 	}
 	else
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Point"));
+		UE_LOG(LogTemp, Warning, TEXT("Points: %i"), userPoints);
 		userPoints += point;
 	}
 }
