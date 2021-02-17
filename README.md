@@ -1,2 +1,3 @@
-# CarbonPush2
-very basic Unreal Game
+# CarbonPush
+
+Unreal project for the Games Development 1 module assignment
