@@ -91,11 +91,11 @@ private:
 
 	//TotalGunAmmo variable
 	UPROPERTY(EditAnywhere)
-		int TotalGunAmmo = 120;
+		int TotalGunAmmo = 40;
 
 	//TotalThrowableAmmo variable
 	UPROPERTY(EditAnywhere)
-		int TotalThrowableAmmo = 13;
+		int TotalThrowableAmmo = 20;
 
 	//Level variable
 	UPROPERTY()

@@ -52,7 +52,7 @@ void AMainPlayerController::Fire()
 	//Allows for the fire function to be called when in the game/main screen
 	if (Pawn && Level == "Main_Screen")
 	{
-		if (CurrentClip > 0 && TotalGunAmmo > 0)
+		if (CurrentClip > 0)
 		{
 			//Plays a sound at the players location
 			UGameplayStatics::PlaySoundAtLocation(GetWorld(), GunSound, Pawn->GetActorLocation(), 1.0f, 1.0f, 0.0f);
@@ -73,6 +73,7 @@ void AMainPlayerController::Reload()
 		//Calculates the current ammo in the clip and the total ammo overall
 		int ReloadAmount = AmmoClip - CurrentClip;
 		TotalGunAmmo -= ReloadAmount;
+		if (TotalGunAmmo < 0)	TotalGunAmmo = 0;
 		CurrentClip = AmmoClip;
 	}
 }

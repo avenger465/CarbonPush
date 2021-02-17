@@ -1,9 +1,9 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
+#include "BTTask_GetRandomLocation.h"
 #include "AIController.h"
 #include "NavigationSystem.h"
 #include "BehaviorTree/BlackboardComponent.h"
-#include "BTTask_GetRandomLocation.h"
 
 EBTNodeResult::Type UBTTask_GetRandomLocation::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory)
 {
