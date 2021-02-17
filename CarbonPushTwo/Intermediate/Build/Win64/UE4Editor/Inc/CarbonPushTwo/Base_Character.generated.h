@@ -82,7 +82,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABase_Character); \
 	FORCEINLINE static uint32 __PPO__PlayerHealth() { return STRUCT_OFFSET(ABase_Character, PlayerHealth); } \
 	FORCEINLINE static uint32 __PPO__Damage() { return STRUCT_OFFSET(ABase_Character, Damage); } \
 	FORCEINLINE static uint32 __PPO__CastRange() { return STRUCT_OFFSET(ABase_Character, CastRange); } \
-	FORCEINLINE static uint32 __PPO__GameModeReference() { return STRUCT_OFFSET(ABase_Character, GameModeReference); }
+	FORCEINLINE static uint32 __PPO__GameModeReference() { return STRUCT_OFFSET(ABase_Character, GameModeReference); } \
+	FORCEINLINE static uint32 __PPO__MainCharacter() { return STRUCT_OFFSET(ABase_Character, MainCharacter); }
 
 
 #define CarbonPushTwo_Source_CarbonPushTwo_Base_Character_h_15_PROLOG

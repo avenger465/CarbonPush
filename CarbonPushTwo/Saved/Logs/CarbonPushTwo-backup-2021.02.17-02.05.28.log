@@ -1,0 +1,1196 @@
+﻿Log file open, 02/17/21 01:54:05
+LogInit: Display: Running engine for game: CarbonPushTwo
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.323879
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: E:/UNREAL ENGINE/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.02.17-01.54.05:770][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.02.17-01.54.05:770][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.02.17-01.54.05:770][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/Saved/Config/Windows/Engine.ini]
+[2021.02.17-01.54.05:770][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.02.17-01.54.05:770][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/Saved/Config/Windows/Engine.ini]
+[2021.02.17-01.54.05:770][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/Saved/Config/Windows/Engine.ini]
+[2021.02.17-01.54.05:770][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.02.17-01.54.05:770][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.02.17-01.54.05:770][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.02.17-01.54.05:770][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.02.17-01.54.05:770][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.02.17-01.54.05:770][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.02.17-01.54.05:770][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.02.17-01.54.05:770][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.02.17-01.54.05:770][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.02.17-01.54.05:770][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.02.17-01.54.05:770][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.02.17-01.54.05:770][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.02.17-01.54.05:770][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.02.17-01.54.05:771][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.02.17-01.54.05:771][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/Saved/Config/Windows/Engine.ini]
+[2021.02.17-01.54.05:771][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.02.17-01.54.05:771][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.02.17-01.54.05:771][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.02.17-01.54.05:771][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.02.17-01.54.05:771][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.02.17-01.54.05:771][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.02.17-01.54.05:771][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.02.17-01.54.05:771][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.02.17-01.54.05:771][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.02.17-01.54.05:771][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.02.17-01.54.05:771][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.02.17-01.54.05:771][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.02.17-01.54.05:771][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.02.17-01.54.05:771][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/Saved/Config/Windows/Engine.ini]
+[2021.02.17-01.54.05:771][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/Saved/Config/Windows/Engine.ini]
+[2021.02.17-01.54.05:779][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/Saved/Config/Windows/Scalability.ini]
+[2021.02.17-01.54.05:779][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.02.17-01.54.05:779][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.02.17-01.54.05:779][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/Saved/Config/Windows/Scalability.ini]
+[2021.02.17-01.54.05:779][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.02.17-01.54.05:779][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/Saved/Config/Windows/Scalability.ini]
+[2021.02.17-01.54.05:779][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.02.17-01.54.05:779][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.02.17-01.54.05:780][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.02.17-01.54.05:780][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.02.17-01.54.05:780][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.02.17-01.54.05:780][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.02.17-01.54.05:780][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.02.17-01.54.05:780][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.02.17-01.54.05:780][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.02.17-01.54.05:780][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.02.17-01.54.05:780][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.02.17-01.54.05:780][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.02.17-01.54.05:780][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.02.17-01.54.05:780][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.02.17-01.54.05:780][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.02.17-01.54.05:780][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.02.17-01.54.05:780][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.02.17-01.54.05:780][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.02.17-01.54.05:780][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/Saved/Config/Windows/Scalability.ini]
+[2021.02.17-01.54.05:781][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.02.17-01.54.05:781][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.02.17-01.54.05:781][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.02.17-01.54.05:781][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.02.17-01.54.05:781][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.02.17-01.54.05:781][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.02.17-01.54.05:781][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.02.17-01.54.05:781][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.02.17-01.54.05:781][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.02.17-01.54.05:781][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.02.17-01.54.05:781][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.02.17-01.54.05:781][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.02.17-01.54.05:781][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.02.17-01.54.05:781][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.02.17-01.54.05:781][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.02.17-01.54.05:781][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.02.17-01.54.05:781][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.02.17-01.54.05:781][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.02.17-01.54.05:782][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.02.17-01.54.05:782][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.02.17-01.54.05:782][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.02.17-01.54.05:782][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.02.17-01.54.05:782][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.02.17-01.54.05:782][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.02.17-01.54.05:782][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.02.17-01.54.05:782][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.02.17-01.54.05:782][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.02.17-01.54.05:782][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.02.17-01.54.05:782][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.02.17-01.54.05:782][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.02.17-01.54.05:782][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/Saved/Config/Windows/Scalability.ini]
+[2021.02.17-01.54.05:782][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.02.17-01.54.05:782][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.02.17-01.54.05:782][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.02.17-01.54.05:783][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.02.17-01.54.05:783][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.02.17-01.54.05:783][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.02.17-01.54.05:783][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.02.17-01.54.05:783][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.02.17-01.54.05:783][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.02.17-01.54.05:783][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/Saved/Config/Windows/Scalability.ini]
+[2021.02.17-01.54.05:783][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.02.17-01.54.05:783][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.02.17-01.54.05:783][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.02.17-01.54.05:783][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.02.17-01.54.05:783][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.02.17-01.54.05:783][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.02.17-01.54.05:783][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.02.17-01.54.05:783][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.02.17-01.54.05:784][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.02.17-01.54.05:784][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.02.17-01.54.05:784][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.02.17-01.54.05:784][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.02.17-01.54.05:784][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.02.17-01.54.05:784][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.02.17-01.54.05:784][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.02.17-01.54.05:784][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.02.17-01.54.05:784][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.02.17-01.54.05:784][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.02.17-01.54.05:784][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.02.17-01.54.05:784][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.02.17-01.54.05:784][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.02.17-01.54.05:784][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.02.17-01.54.05:784][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.02.17-01.54.05:785][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.02.17-01.54.05:785][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.02.17-01.54.05:785][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.02.17-01.54.05:785][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/Saved/Config/Windows/Scalability.ini]
+[2021.02.17-01.54.05:785][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.02.17-01.54.05:785][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.02.17-01.54.05:785][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/Saved/Config/Windows/Scalability.ini]
+[2021.02.17-01.54.05:785][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.02.17-01.54.05:785][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.02.17-01.54.05:785][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.02.17-01.54.05:785][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.02.17-01.54.05:785][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.02.17-01.54.05:785][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.02.17-01.54.05:785][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.02.17-01.54.05:785][  0]LogInit: Selected Device Profile: [Windows]
+[2021.02.17-01.54.05:785][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.02.17-01.54.05:786][  0]LogHAL: Display: Platform has ~ 32 GB [34213715968 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.02.17-01.54.05:786][  0]LogInit: Going up to parent DeviceProfile []
+[2021.02.17-01.54.05:786][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/Saved/Config/Windows/Scalability.ini]
+[2021.02.17-01.54.05:786][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.02.17-01.54.05:786][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.02.17-01.54.05:786][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/Saved/Config/Windows/Scalability.ini]
+[2021.02.17-01.54.05:786][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.02.17-01.54.05:786][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/Saved/Config/Windows/Scalability.ini]
+[2021.02.17-01.54.05:786][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.02.17-01.54.05:786][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.02.17-01.54.05:786][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.02.17-01.54.05:786][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.02.17-01.54.05:786][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.02.17-01.54.05:786][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.02.17-01.54.05:786][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.02.17-01.54.05:786][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.02.17-01.54.05:787][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.02.17-01.54.05:787][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.02.17-01.54.05:787][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.02.17-01.54.05:787][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.02.17-01.54.05:787][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.02.17-01.54.05:787][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.02.17-01.54.05:787][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.02.17-01.54.05:787][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.02.17-01.54.05:787][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.02.17-01.54.05:787][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.02.17-01.54.05:787][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/Saved/Config/Windows/Scalability.ini]
+[2021.02.17-01.54.05:787][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.02.17-01.54.05:787][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.02.17-01.54.05:787][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.02.17-01.54.05:788][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.02.17-01.54.05:788][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.02.17-01.54.05:788][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.02.17-01.54.05:788][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.02.17-01.54.05:788][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.02.17-01.54.05:788][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.02.17-01.54.05:788][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.02.17-01.54.05:788][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.02.17-01.54.05:788][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.02.17-01.54.05:788][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.02.17-01.54.05:788][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.02.17-01.54.05:788][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.02.17-01.54.05:788][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.02.17-01.54.05:788][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.02.17-01.54.05:789][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.02.17-01.54.05:789][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.02.17-01.54.05:789][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.02.17-01.54.05:789][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.02.17-01.54.05:789][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.02.17-01.54.05:789][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.02.17-01.54.05:789][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.02.17-01.54.05:789][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.02.17-01.54.05:789][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.02.17-01.54.05:789][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.02.17-01.54.05:789][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.02.17-01.54.05:789][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.02.17-01.54.05:789][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.02.17-01.54.05:789][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/Saved/Config/Windows/Scalability.ini]
+[2021.02.17-01.54.05:790][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.02.17-01.54.05:790][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.02.17-01.54.05:790][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.02.17-01.54.05:790][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.02.17-01.54.05:790][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.02.17-01.54.05:790][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.02.17-01.54.05:790][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.02.17-01.54.05:790][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.02.17-01.54.05:790][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.02.17-01.54.05:790][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/Saved/Config/Windows/Scalability.ini]
+[2021.02.17-01.54.05:790][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.02.17-01.54.05:790][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.02.17-01.54.05:790][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.02.17-01.54.05:790][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.02.17-01.54.05:790][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.02.17-01.54.05:790][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.02.17-01.54.05:790][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.02.17-01.54.05:790][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.02.17-01.54.05:790][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.02.17-01.54.05:790][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.02.17-01.54.05:791][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.02.17-01.54.05:791][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.02.17-01.54.05:791][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.02.17-01.54.05:791][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.02.17-01.54.05:791][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.02.17-01.54.05:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.02.17-01.54.05:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.02.17-01.54.05:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.02.17-01.54.05:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.02.17-01.54.05:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.02.17-01.54.05:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.02.17-01.54.05:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.02.17-01.54.05:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.02.17-01.54.05:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.02.17-01.54.05:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.02.17-01.54.05:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.02.17-01.54.05:791][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/Saved/Config/Windows/Scalability.ini]
+[2021.02.17-01.54.05:791][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.02.17-01.54.05:791][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.02.17-01.54.05:792][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/Saved/Config/Windows/Scalability.ini]
+[2021.02.17-01.54.05:792][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.02.17-01.54.05:792][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.02.17-01.54.05:792][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.02.17-01.54.05:792][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.02.17-01.54.05:792][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.02.17-01.54.05:792][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.02.17-01.54.05:792][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.02.17-01.54.05:792][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.02.17-01.54.05:792][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.02.17-01.54.05:792][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.02.17-01.54.05:792][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.02.17-01.54.05:792][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/Saved/Config/Windows/Engine.ini]
+[2021.02.17-01.54.05:793][  0]LogInit: Computer: PROGRAMMING-PC
+[2021.02.17-01.54.05:793][  0]LogInit: User: aveng
+[2021.02.17-01.54.05:793][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.02.17-01.54.05:793][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.02.17-01.54.05:793][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2021.02.17-01.54.05:793][  0]LogMemory: Platform Memory Stats for Windows
+[2021.02.17-01.54.05:793][  0]LogMemory: Process Physical Memory: 116.35 MB used, 116.35 MB peak
+[2021.02.17-01.54.05:793][  0]LogMemory: Process Virtual Memory: 96.78 MB used, 96.78 MB peak
+[2021.02.17-01.54.05:793][  0]LogMemory: Physical Memory: 12278.12 MB used,  20350.62 MB free, 32628.74 MB total
+[2021.02.17-01.54.05:793][  0]LogMemory: Virtual Memory: 5144.93 MB used,  134212584.00 MB free, 134217728.00 MB total
+[2021.02.17-01.54.05:812][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.02.17-01.54.06:053][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.02.17-01.54.06:054][  0]LogInit: Using OS detected language (en-GB).
+[2021.02.17-01.54.06:054][  0]LogInit: Using OS detected locale (en-GB).
+[2021.02.17-01.54.06:056][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2021.02.17-01.54.06:286][  0]LogInit: Setting process to per monitor DPI aware
+[2021.02.17-01.54.06:349][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.02.17-01.54.06:349][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.02.17-01.54.06:527][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.02.17-01.54.06:527][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.02.17-01.54.06:528][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.02.17-01.54.06:528][  0]LogD3D11RHI: D3D11 adapters:
+[2021.02.17-01.54.06:665][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2021.02.17-01.54.06:665][  0]LogD3D11RHI:       6052/0/16314 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.02.17-01.54.06:682][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2021.02.17-01.54.06:682][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2021.02.17-01.54.06:688][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.02.17-01.54.06:688][  0]LogD3D11RHI:       0/0/16314 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.02.17-01.54.06:688][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.02.17-01.54.06:696][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.02.17-01.54.06:696][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2021.02.17-01.54.06:696][  0]LogWindows: EnumDisplayDevices:
+[2021.02.17-01.54.06:697][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2021.02.17-01.54.06:698][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2021.02.17-01.54.06:698][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2021.02.17-01.54.06:699][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2021.02.17-01.54.06:700][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2021.02.17-01.54.06:701][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2021.02.17-01.54.06:702][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2021.02.17-01.54.06:703][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2021.02.17-01.54.06:703][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2021.02.17-01.54.06:703][  0]LogD3D11RHI:   Driver Version: 461.40 (internal:27.21.14.6140, unified:461.40)
+[2021.02.17-01.54.06:703][  0]LogD3D11RHI:      Driver Date: 1-22-2021
+[2021.02.17-01.54.06:703][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2021.02.17-01.54.06:796][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.02.17-01.54.06:796][  0]LogD3D11RHI: Async texture creation enabled
+[2021.02.17-01.54.06:796][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.02.17-01.54.06:821][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.02.17-01.54.07:357][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.02.17-01.54.07:392][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.02.17-01.54.07:393][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.02.17-01.54.07:393][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.02.17-01.54.07:393][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.02.17-01.54.07:393][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.02.17-01.54.07:393][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.02.17-01.54.07:393][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.02.17-01.54.07:393][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.02.17-01.54.07:393][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.02.17-01.54.07:393][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.02.17-01.54.07:440][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.02.17-01.54.07:440][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.02.17-01.54.07:461][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.02.17-01.54.07:476][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.02.17-01.54.07:491][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.02.17-01.54.07:505][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.02.17-01.54.07:521][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.02.17-01.54.07:536][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.02.17-01.54.07:551][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.02.17-01.54.07:584][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.02.17-01.54.07:585][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.02.17-01.54.07:608][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.02.17-01.54.07:608][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.02.17-01.54.07:627][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.02.17-01.54.07:646][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.02.17-01.54.07:666][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.02.17-01.54.07:687][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.02.17-01.54.07:687][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.02.17-01.54.07:717][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.02.17-01.54.07:922][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/Intermediate/Shaders/WorkingDirectory/23588/).
+[2021.02.17-01.54.07:922][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/aveng/AppData/Local/Temp/UnrealShaderWorkingDir/BD2CB8B445EB393C054E1DBE744ABBD3/'.
+[2021.02.17-01.54.07:923][  0]LogXGEController: Cleaning working directory: C:/Users/aveng/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.02.17-01.54.07:923][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.02.17-01.54.07:924][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.02.17-01.54.07:924][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.02.17-01.54.08:722][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.02.17-01.54.08:791][  0]LogDerivedDataCache: Loaded boot cache 0.07s 76MB C:/Users/aveng/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.02.17-01.54.08:791][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/aveng/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.02.17-01.54.08:791][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.02.17-01.54.08:791][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.02.17-01.54.08:791][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.02.17-01.54.08:791][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.02.17-01.54.08:802][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.02.17-01.54.08:802][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.02.17-01.54.08:802][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.02.17-01.54.08:805][  0]LogDerivedDataCache: Using Local data cache path C:/Users/aveng/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.02.17-01.54.08:806][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.02.17-01.54.08:806][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.02.17-01.54.08:856][  0]LogSlate: Using FreeType 2.10.0
+[2021.02.17-01.54.08:857][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.02.17-01.54.08:893][  0]LogAssetRegistry: FAssetRegistry took 0.0045 seconds to start up
+[2021.02.17-01.54.09:132][  0]LogInit: Selected Device Profile: [Windows]
+[2021.02.17-01.54.09:333][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.02.17-01.54.09:333][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.02.17-01.54.09:333][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.02.17-01.54.09:334][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.02.17-01.54.09:334][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.02.17-01.54.09:361][  0]LogNetVersion: CarbonPushTwo 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1376232862)
+[2021.02.17-01.54.09:839][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000182170D5AC0), frame # 0
+[2021.02.17-01.54.09:839][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018217FFFC40), frame # 0
+[2021.02.17-01.54.09:841][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018218066600), frame # 0
+[2021.02.17-01.54.09:915][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.067336 seconds
+[2021.02.17-01.54.09:919][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.02.17-01.54.09:920][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.02.17-01.54.09:920][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.02.17-01.54.10:919][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.02.17-01.54.10:933][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.02.17-01.54.11:288][  0]SourceControl: Source control is disabled
+[2021.02.17-01.54.12:814][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.02.17-01.54.12:890][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.02.17-01.54.12:890][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.02.17-01.54.13:012][  0]LogOcInput: OculusInput pre-init called
+[2021.02.17-01.54.13:042][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.02.17-01.54.13:042][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.02.17-01.54.13:184][  0]LogEngine: Initializing Engine...
+[2021.02.17-01.54.13:185][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.02.17-01.54.13:185][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.02.17-01.54.13:186][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.02.17-01.54.13:307][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.02.17-01.54.13:324][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.02.17-01.54.13:324][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001821B3FFC00), frame # 0
+[2021.02.17-01.54.13:324][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001821B4851C0), frame # 0
+[2021.02.17-01.54.13:348][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.17-01.54.13:348][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.17-01.54.13:348][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.17-01.54.13:348][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.17-01.54.13:348][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.17-01.54.13:349][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.17-01.54.13:349][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.17-01.54.13:349][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.17-01.54.13:349][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.17-01.54.13:349][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.17-01.54.13:399][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.17-01.54.13:400][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.02.17-01.54.13:400][  0]LogAudioMixer: Display: 2: FrontCenter
+[2021.02.17-01.54.13:400][  0]LogAudioMixer: Display: 3: LowFrequency
+[2021.02.17-01.54.13:400][  0]LogAudioMixer: Display: 4: BackLeft
+[2021.02.17-01.54.13:400][  0]LogAudioMixer: Display: 5: BackRight
+[2021.02.17-01.54.13:400][  0]LogAudioMixer: Display: 6: SideLeft
+[2021.02.17-01.54.13:400][  0]LogAudioMixer: Display: 7: SideRight
+[2021.02.17-01.54.13:487][  0]LogAudioMixer: Display: Using Audio Device Speakers (THX Spatial Audio)
+[2021.02.17-01.54.13:491][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.17-01.54.13:493][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.17-01.54.13:494][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.17-01.54.13:495][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.17-01.54.13:498][  0]LogInit: FAudioDevice initialized.
+[2021.02.17-01.54.13:498][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.02.17-01.54.13:721][  0]LogDerivedDataCache: Saved boot cache 0.22s 76MB C:/Users/aveng/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.02.17-01.54.13:722][  0]LogInit: Texture streaming: Enabled
+[2021.02.17-01.54.13:767][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.02.17-01.54.13:767][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.02.17-01.54.13:772][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.02.17-01.54.13:829][  0]LogInit: Transaction tracking system initialized
+[2021.02.17-01.54.13:906][  0]BlueprintLog: New page: Editor Load
+[2021.02.17-01.54.14:174][  0]LocalizationService: Localization service is disabled
+[2021.02.17-01.54.14:505][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.02.17-01.54.14:505][  0]LogCook: Display: Mobile HDR setting 1
+[2021.02.17-01.54.14:915][  0]LogFileCache: Scanning file cache for directory 'C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/Content/' took 0.01s
+[2021.02.17-01.54.15:237][  0]LogUnrealEdMisc: Loading editor; pre map load, took 12.351
+[2021.02.17-01.54.15:237][  0]Cmd: MAP LOAD FILE="C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/Content/Levels/Main_Screen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.02.17-01.54.15:238][  0]LightingResults: New page: Lighting Build
+[2021.02.17-01.54.15:239][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.02.17-01.54.15:239][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-01.54.15:239][  0]MapCheck: New page: Map Check
+[2021.02.17-01.54.15:239][  0]LightingResults: New page: Lighting Build
+[2021.02.17-01.54.15:248][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001821B3FFC00), frame # 0
+[2021.02.17-01.54.15:249][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001821B4851C0), frame # 0
+[2021.02.17-01.54.15:249][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2021.02.17-01.54.15:597][  0]LogAIModule: Creating AISystem for world Main_Screen
+[2021.02.17-01.54.15:597][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018225863E00), frame # 0
+[2021.02.17-01.54.15:598][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001820B052D40), frame # 0
+[2021.02.17-01.54.15:613][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.02.17-01.54.15:638][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2021.02.17-01.54.15:639][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.02.17-01.54.15:639][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.264ms to complete.
+[2021.02.17-01.54.15:639][  0]LogFileHelpers: Loading map 'Main_Screen' took 0.402
+[2021.02.17-01.54.15:643][  0]LogUnrealEdMisc: Total Editor Startup Time, took 12.756
+[2021.02.17-01.54.15:802][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-01.54.15:811][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-01.54.15:823][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-01.54.15:834][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-01.54.15:854][  0]LogCollectionManager: Loaded 0 collections in 0.002624 seconds
+[2021.02.17-01.54.15:870][  0]LogFileCache: Scanning file cache for directory 'C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/Saved/Collections/' took 0.00s
+[2021.02.17-01.54.15:870][  0]LogFileCache: Scanning file cache for directory 'C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/Content/Developers/aveng/Collections/' took 0.00s
+[2021.02.17-01.54.15:870][  0]LogFileCache: Scanning file cache for directory 'C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/Content/Collections/' took 0.00s
+[2021.02.17-01.54.15:871][  0]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 3448 classes and 828 folders.
+[2021.02.17-01.54.15:875][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2021.02.17-01.54.15:957][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2021.02.17-01.54.15:958][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 0 folders.
+[2021.02.17-01.54.16:084][  0]LogSlate: Took 0.000353 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.02.17-01.54.16:087][  0]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.02.17-01.54.16:092][  0]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.02.17-01.54.16:179][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2021.02.17-01.54.16:203][  0]LogRenderer: Reallocating scene render targets to support 1108x628 Format 10 NumSamples 1 (Frame:1).
+[2021.02.17-01.54.16:323][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2021.02.17-01.54.16:323][  0]LogLoad: (Engine Initialization) Total time: 13.44 seconds
+[2021.02.17-01.54.16:324][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.02.17-01.54.16:364][  0]LogAssetRegistry: Asset discovery search completed in 7.4727 seconds
+[2021.02.17-01.54.16:371][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2021.02.17-01.54.16:372][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.02.17-01.54.16:412][  0]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.02.17-01.54.17:515][115]Candidate modules for hot reload:
+[2021.02.17-01.54.17:515][115]  CarbonPushTwo
+[2021.02.17-01.54.17:516][115]Launching UnrealBuildTool... [E:/UNREAL ENGINE/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CarbonPushTwo,2154 CarbonPushTwoEditor Win64 Development -Project="C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/CarbonPushTwo.uproject" "C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/CarbonPushTwo.uproject"  -IgnoreJunk]
+[2021.02.17-01.54.17:598][115]Warning: Starting HotReload took  0.1s.
+[2021.02.17-01.54.20:403][393]CompilerResultsLog: New page: Compilation - 17 Feb 2021, 01:54:20
+[2021.02.17-01.54.20:403][393]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\aveng\Documents\GitHub\CarbonPush2).
+[2021.02.17-01.54.20:403][393]CompilerResultsLog: Building CarbonPushTwoEditor...
+[2021.02.17-01.54.20:403][393]CompilerResultsLog: Using Visual Studio 2019 14.28.29337 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.17-01.54.20:403][393]CompilerResultsLog: Building 3 actions with 8 processes...
+[2021.02.17-01.54.20:404][393]CompilerResultsLog:   [1/3] UE4Editor-CarbonPushTwo-2154.lib
+[2021.02.17-01.54.20:404][393]CompilerResultsLog:      Creating library C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\UE4Editor-CarbonPushTwo-2154.lib and object C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\UE4Editor-CarbonPushTwo-2154.exp
+[2021.02.17-01.54.20:404][393]CompilerResultsLog:   [2/3] UE4Editor-CarbonPushTwo-2154.dll
+[2021.02.17-01.54.20:404][393]CompilerResultsLog:      Creating library C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\UE4Editor-CarbonPushTwo-2154.suppressed.lib and object C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\UE4Editor-CarbonPushTwo-2154.suppressed.exp
+[2021.02.17-01.54.20:404][393]CompilerResultsLog:   [3/3] CarbonPushTwoEditor.target
+[2021.02.17-01.54.20:404][393]CompilerResultsLog: Total time in Parallel executor: 1.59 seconds
+[2021.02.17-01.54.20:404][393]CompilerResultsLog: Total execution time: 2.67 seconds
+[2021.02.17-01.54.20:404][393]LogMainFrame: MainFrame: Module compiling took 2.892 seconds
+[2021.02.17-01.54.20:443][393]LogContentBrowser: Native class hierarchy updated for 'CarbonPushTwo' in 0.0006 seconds. Added 12 classes and 2 folders.
+[2021.02.17-01.54.20:445][393]Display: HotReload successful (14 functions remapped  0 scriptstructs remapped)
+[2021.02.17-01.54.20:509][393]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 3448 classes and 828 folders.
+[2021.02.17-01.54.20:509][393]Display: HotReload took  3.0s.
+[2021.02.17-01.54.23:570][595]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.17-01.54.23:587][595]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.17-01.54.23:588][595]PIE: New page: PIE session: Main_Screen (17 Feb 2021, 01:54:23)
+[2021.02.17-01.54.23:590][595]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.02.17-01.54.23:592][595]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.02.17-01.54.23:592][595]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main_Screen
+[2021.02.17-01.54.23:608][595]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015107s)
+[2021.02.17-01.54.23:609][595]LogAIModule: Creating AISystem for world Main_Screen
+[2021.02.17-01.54.23:609][595]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018244CD7E00), frame # 595
+[2021.02.17-01.54.23:609][595]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000182257E1800), frame # 595
+[2021.02.17-01.54.23:610][595]LogPlayLevel: PIE: World Init took: (0.001600s)
+[2021.02.17-01.54.23:610][595]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main_Screen.Main_Screen to /Game/Levels/UEDPIE_0_Main_Screen.Main_Screen (0.017220s)
+[2021.02.17-01.54.23:619][595]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2021.02.17-01.54.23:620][595]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.17-01.54.23:621][595]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.17-01.54.23:621][595]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.17-01.54.23:621][595]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.17-01.54.23:621][595]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.17-01.54.23:621][595]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.17-01.54.23:621][595]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.17-01.54.23:621][595]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.17-01.54.23:622][595]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.17-01.54.23:622][595]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.17-01.54.23:636][595]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.17-01.54.23:636][595]LogAudioMixer: Display: 1: FrontRight
+[2021.02.17-01.54.23:636][595]LogAudioMixer: Display: 2: FrontCenter
+[2021.02.17-01.54.23:636][595]LogAudioMixer: Display: 3: LowFrequency
+[2021.02.17-01.54.23:637][595]LogAudioMixer: Display: 4: BackLeft
+[2021.02.17-01.54.23:637][595]LogAudioMixer: Display: 5: BackRight
+[2021.02.17-01.54.23:637][595]LogAudioMixer: Display: 6: SideLeft
+[2021.02.17-01.54.23:637][595]LogAudioMixer: Display: 7: SideRight
+[2021.02.17-01.54.23:692][595]LogAudioMixer: Display: Using Audio Device Speakers (THX Spatial Audio)
+[2021.02.17-01.54.23:693][595]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.17-01.54.23:693][595]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.17-01.54.23:693][595]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.17-01.54.23:693][595]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.17-01.54.23:707][595]LogInit: FAudioDevice initialized.
+[2021.02.17-01.54.23:773][595]LogLoad: Game class is 'BP_CarbonPushTwoGameModeBase_C'
+[2021.02.17-01.54.23:781][595]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main_Screen.Main_Screen up for play (max tick rate 0) at 2021.02.17-01.54.23
+[2021.02.17-01.54.23:782][595]LogWorld: Bringing up level for play took: 0.008468
+[2021.02.17-01.54.23:783][595]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2021.02.17-01.54.23:871][595]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2021.02.17-01.54.23:875][595]PIE: Server logged in
+[2021.02.17-01.54.23:877][595]PIE: Play in editor total start time 0.296 seconds.
+[2021.02.17-01.54.25:510][779]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.02.17-01.54.30:283][342]LogTemp: Warning: false
+[2021.02.17-01.54.30:283][342]LogTemp: Warning: 100.000000
+[2021.02.17-01.54.37:171][168]LogTemp: Warning: false
+[2021.02.17-01.54.37:171][168]LogTemp: Warning: 70.000000
+[2021.02.17-01.54.39:981][505]LogTemp: Warning: false
+[2021.02.17-01.54.39:981][505]LogTemp: Warning: 40.000000
+[2021.02.17-01.54.40:697][591]LogTemp: Warning: false
+[2021.02.17-01.54.40:698][591]LogTemp: Warning: 10.000000
+[2021.02.17-01.54.42:340][788]LogTemp: Warning: true
+[2021.02.17-01.54.42:341][788]LogTemp: Warning: 100.000000
+[2021.02.17-01.54.43:090][878]LogTemp: Warning: false
+[2021.02.17-01.54.43:091][878]LogTemp: Warning: -20.000000
+[2021.02.17-01.54.43:091][878]LogTemp: Warning: Dont Switch
+[2021.02.17-01.54.43:608][940]LogTemp: Warning: true
+[2021.02.17-01.54.43:608][940]LogTemp: Warning: 85.000000
+[2021.02.17-01.54.44:874][ 92]LogTemp: Warning: true
+[2021.02.17-01.54.44:874][ 92]LogTemp: Warning: 70.000000
+[2021.02.17-01.54.46:142][244]LogTemp: Warning: true
+[2021.02.17-01.54.46:142][244]LogTemp: Warning: 55.000000
+[2021.02.17-01.54.47:409][396]LogTemp: Warning: true
+[2021.02.17-01.54.47:409][396]LogTemp: Warning: 40.000000
+[2021.02.17-01.54.48:675][548]LogTemp: Warning: true
+[2021.02.17-01.54.48:676][548]LogTemp: Warning: 25.000000
+[2021.02.17-01.54.49:943][700]LogTemp: Warning: true
+[2021.02.17-01.54.49:943][700]LogTemp: Warning: 10.000000
+[2021.02.17-01.54.51:212][850]LogTemp: Warning: true
+[2021.02.17-01.54.51:213][850]LogTemp: Warning: -5.000000
+[2021.02.17-01.54.51:213][850]LogTemp: Warning: Dont Switch
+[2021.02.17-01.55.01:819][117]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-01.55.01:819][117]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Main_Screen
+[2021.02.17-01.55.01:820][117]LogWorld: UWorld::CleanupWorld for Main_Screen, bSessionEnded=true, bCleanupResources=true
+[2021.02.17-01.55.01:821][117]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-01.55.01:833][117]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.17-01.55.01:835][117]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-01.55.01:844][117]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-01.55.01:898][117]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018244CD7E00), frame # 5117
+[2021.02.17-01.55.01:898][117]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000182257E1800), frame # 5117
+[2021.02.17-01.55.01:900][117]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2021.02.17-01.55.01:931][118]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2021.02.17-01.55.12:821][279]Candidate modules for hot reload:
+[2021.02.17-01.55.12:821][279]  CarbonPushTwo
+[2021.02.17-01.55.12:822][279]Launching UnrealBuildTool... [E:/UNREAL ENGINE/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CarbonPushTwo,2004 CarbonPushTwoEditor Win64 Development -Project="C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/CarbonPushTwo.uproject" "C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/CarbonPushTwo.uproject"  -IgnoreJunk]
+[2021.02.17-01.55.12:902][279]Warning: Starting HotReload took  0.1s.
+[2021.02.17-01.55.17:456][769]CompilerResultsLog: New page: Compilation - 17 Feb 2021, 01:55:17
+[2021.02.17-01.55.17:456][769]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\aveng\Documents\GitHub\CarbonPush2).
+[2021.02.17-01.55.17:456][769]CompilerResultsLog: Building CarbonPushTwoEditor...
+[2021.02.17-01.55.17:456][769]CompilerResultsLog: Using Visual Studio 2019 14.28.29337 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.17-01.55.17:456][769]CompilerResultsLog: Building 4 actions with 8 processes...
+[2021.02.17-01.55.17:457][769]CompilerResultsLog:   [1/4] Base_Character.cpp
+[2021.02.17-01.55.17:457][769]CompilerResultsLog:   [2/4] UE4Editor-CarbonPushTwo-2004.lib
+[2021.02.17-01.55.17:457][769]CompilerResultsLog:      Creating library C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\UE4Editor-CarbonPushTwo-2004.lib and object C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\UE4Editor-CarbonPushTwo-2004.exp
+[2021.02.17-01.55.17:457][769]CompilerResultsLog:   [3/4] UE4Editor-CarbonPushTwo-2004.dll
+[2021.02.17-01.55.17:457][769]CompilerResultsLog:      Creating library C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\UE4Editor-CarbonPushTwo-2004.suppressed.lib and object C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\UE4Editor-CarbonPushTwo-2004.suppressed.exp
+[2021.02.17-01.55.17:457][769]CompilerResultsLog:   [4/4] CarbonPushTwoEditor.target
+[2021.02.17-01.55.17:457][769]CompilerResultsLog: Total time in Parallel executor: 3.31 seconds
+[2021.02.17-01.55.17:457][769]CompilerResultsLog: Total execution time: 4.42 seconds
+[2021.02.17-01.55.17:457][769]LogMainFrame: MainFrame: Module compiling took 4.640 seconds
+[2021.02.17-01.55.17:488][769]LogContentBrowser: Native class hierarchy updated for 'CarbonPushTwo' in 0.0009 seconds. Added 12 classes and 2 folders.
+[2021.02.17-01.55.17:490][769]Display: HotReload successful (14 functions remapped  0 scriptstructs remapped)
+[2021.02.17-01.55.17:539][769]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 3448 classes and 828 folders.
+[2021.02.17-01.55.17:539][769]Display: HotReload took  4.7s.
+[2021.02.17-01.55.19:647][ 19]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.17-01.55.19:664][ 19]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.17-01.55.19:664][ 19]PIE: New page: PIE session: Main_Screen (17 Feb 2021, 01:55:19)
+[2021.02.17-01.55.19:664][ 19]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main_Screen
+[2021.02.17-01.55.19:678][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013803s)
+[2021.02.17-01.55.19:679][ 19]LogAIModule: Creating AISystem for world Main_Screen
+[2021.02.17-01.55.19:679][ 19]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000182210C7400), frame # 6019
+[2021.02.17-01.55.19:680][ 19]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018225845080), frame # 6019
+[2021.02.17-01.55.19:680][ 19]LogPlayLevel: PIE: World Init took: (0.001429s)
+[2021.02.17-01.55.19:680][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main_Screen.Main_Screen to /Game/Levels/UEDPIE_0_Main_Screen.Main_Screen (0.015640s)
+[2021.02.17-01.55.19:689][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2021.02.17-01.55.19:690][ 19]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.17-01.55.19:691][ 19]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.17-01.55.19:691][ 19]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.17-01.55.19:691][ 19]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.17-01.55.19:691][ 19]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.17-01.55.19:691][ 19]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.17-01.55.19:691][ 19]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.17-01.55.19:692][ 19]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.17-01.55.19:692][ 19]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.17-01.55.19:692][ 19]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.17-01.55.19:706][ 19]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.17-01.55.19:706][ 19]LogAudioMixer: Display: 1: FrontRight
+[2021.02.17-01.55.19:706][ 19]LogAudioMixer: Display: 2: FrontCenter
+[2021.02.17-01.55.19:706][ 19]LogAudioMixer: Display: 3: LowFrequency
+[2021.02.17-01.55.19:706][ 19]LogAudioMixer: Display: 4: BackLeft
+[2021.02.17-01.55.19:706][ 19]LogAudioMixer: Display: 5: BackRight
+[2021.02.17-01.55.19:706][ 19]LogAudioMixer: Display: 6: SideLeft
+[2021.02.17-01.55.19:706][ 19]LogAudioMixer: Display: 7: SideRight
+[2021.02.17-01.55.19:754][ 19]LogAudioMixer: Display: Using Audio Device Speakers (THX Spatial Audio)
+[2021.02.17-01.55.19:755][ 19]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.17-01.55.19:755][ 19]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.17-01.55.19:755][ 19]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.17-01.55.19:755][ 19]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.17-01.55.19:768][ 19]LogInit: FAudioDevice initialized.
+[2021.02.17-01.55.19:782][ 19]LogLoad: Game class is 'BP_CarbonPushTwoGameModeBase_C'
+[2021.02.17-01.55.19:789][ 19]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main_Screen.Main_Screen up for play (max tick rate 0) at 2021.02.17-01.55.19
+[2021.02.17-01.55.19:790][ 19]LogWorld: Bringing up level for play took: 0.007754
+[2021.02.17-01.55.19:791][ 19]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2021.02.17-01.55.19:797][ 19]PIE: Server logged in
+[2021.02.17-01.55.19:798][ 19]PIE: Play in editor total start time 0.139 seconds.
+[2021.02.17-01.55.25:977][747]LogTemp: Warning: false
+[2021.02.17-01.55.25:977][747]LogTemp: Warning: 100.000000
+[2021.02.17-01.55.26:194][773]LogTemp: Warning: false
+[2021.02.17-01.55.26:194][773]LogTemp: Warning: 70.000000
+[2021.02.17-01.55.26:985][868]LogTemp: Warning: false
+[2021.02.17-01.55.26:985][868]LogTemp: Warning: 40.000000
+[2021.02.17-01.55.28:238][ 18]LogTemp: Warning: false
+[2021.02.17-01.55.28:238][ 18]LogTemp: Warning: 10.000000
+[2021.02.17-01.55.28:238][ 18]LogTemp: Warning: Dont Switch
+[2021.02.17-01.55.35:079][839]LogTemp: Warning: true
+[2021.02.17-01.55.35:080][839]LogTemp: Warning: 100.000000
+[2021.02.17-01.55.36:346][991]LogTemp: Warning: true
+[2021.02.17-01.55.36:346][991]LogTemp: Warning: 85.000000
+[2021.02.17-01.55.37:613][143]LogTemp: Warning: true
+[2021.02.17-01.55.37:613][143]LogTemp: Warning: 70.000000
+[2021.02.17-01.55.38:879][295]LogTemp: Warning: true
+[2021.02.17-01.55.38:880][295]LogTemp: Warning: 55.000000
+[2021.02.17-01.55.40:147][447]LogTemp: Warning: true
+[2021.02.17-01.55.40:147][447]LogTemp: Warning: 40.000000
+[2021.02.17-01.55.41:413][599]LogTemp: Warning: true
+[2021.02.17-01.55.41:413][599]LogTemp: Warning: 25.000000
+[2021.02.17-01.55.42:680][751]LogTemp: Warning: true
+[2021.02.17-01.55.42:681][751]LogTemp: Warning: 10.000000
+[2021.02.17-01.55.42:681][751]LogTemp: Warning: Dont Switch
+[2021.02.17-01.55.46:689][231]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-01.55.46:689][231]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Main_Screen
+[2021.02.17-01.55.46:690][231]LogWorld: UWorld::CleanupWorld for Main_Screen, bSessionEnded=true, bCleanupResources=true
+[2021.02.17-01.55.46:691][231]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-01.55.46:704][231]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.17-01.55.46:706][231]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-01.55.46:763][231]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-01.55.46:765][231]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018225845080), frame # 9231
+[2021.02.17-01.55.46:765][231]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000182210C7400), frame # 9231
+[2021.02.17-01.55.46:767][231]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2021.02.17-01.55.46:789][232]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2021.02.17-01.58.35:129][815]Candidate modules for hot reload:
+[2021.02.17-01.58.35:129][815]  CarbonPushTwo
+[2021.02.17-01.58.35:130][815]Launching UnrealBuildTool... [E:/UNREAL ENGINE/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CarbonPushTwo,6482 CarbonPushTwoEditor Win64 Development -Project="C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/CarbonPushTwo.uproject" "C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/CarbonPushTwo.uproject"  -IgnoreJunk]
+[2021.02.17-01.58.35:210][815]Warning: Starting HotReload took  0.1s.
+[2021.02.17-01.58.39:935][331]CompilerResultsLog: New page: Compilation - 17 Feb 2021, 01:58:39
+[2021.02.17-01.58.39:935][331]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\aveng\Documents\GitHub\CarbonPush2).
+[2021.02.17-01.58.39:935][331]CompilerResultsLog: Building CarbonPushTwoEditor...
+[2021.02.17-01.58.39:935][331]CompilerResultsLog: Using Visual Studio 2019 14.28.29337 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.17-01.58.39:936][331]CompilerResultsLog: Building 4 actions with 8 processes...
+[2021.02.17-01.58.39:936][331]CompilerResultsLog:   [1/4] Base_Character.cpp
+[2021.02.17-01.58.39:936][331]CompilerResultsLog:   [2/4] UE4Editor-CarbonPushTwo-6482.lib
+[2021.02.17-01.58.39:936][331]CompilerResultsLog:      Creating library C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\UE4Editor-CarbonPushTwo-6482.lib and object C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\UE4Editor-CarbonPushTwo-6482.exp
+[2021.02.17-01.58.39:936][331]CompilerResultsLog:   [3/4] UE4Editor-CarbonPushTwo-6482.dll
+[2021.02.17-01.58.39:936][331]CompilerResultsLog:      Creating library C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\UE4Editor-CarbonPushTwo-6482.suppressed.lib and object C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\UE4Editor-CarbonPushTwo-6482.suppressed.exp
+[2021.02.17-01.58.39:936][331]CompilerResultsLog:   [4/4] CarbonPushTwoEditor.target
+[2021.02.17-01.58.39:936][331]CompilerResultsLog: Total time in Parallel executor: 3.43 seconds
+[2021.02.17-01.58.39:936][331]CompilerResultsLog: Total execution time: 4.60 seconds
+[2021.02.17-01.58.39:936][331]LogMainFrame: MainFrame: Module compiling took 4.811 seconds
+[2021.02.17-01.58.39:969][331]LogContentBrowser: Native class hierarchy updated for 'CarbonPushTwo' in 0.0006 seconds. Added 12 classes and 2 folders.
+[2021.02.17-01.58.39:971][331]Display: HotReload successful (14 functions remapped  0 scriptstructs remapped)
+[2021.02.17-01.58.40:017][331]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 3448 classes and 828 folders.
+[2021.02.17-01.58.40:017][331]Display: HotReload took  4.9s.
+[2021.02.17-01.58.57:741][449]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.17-01.58.57:760][449]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.17-01.58.57:760][449]PIE: New page: PIE session: Main_Screen (17 Feb 2021, 01:58:57)
+[2021.02.17-01.58.57:760][449]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main_Screen
+[2021.02.17-01.58.57:777][449]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016773s)
+[2021.02.17-01.58.57:778][449]LogAIModule: Creating AISystem for world Main_Screen
+[2021.02.17-01.58.57:778][449]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018244CD4400), frame # 12449
+[2021.02.17-01.58.57:779][449]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018225F94CC0), frame # 12449
+[2021.02.17-01.58.57:779][449]LogPlayLevel: PIE: World Init took: (0.001598s)
+[2021.02.17-01.58.57:779][449]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main_Screen.Main_Screen to /Game/Levels/UEDPIE_0_Main_Screen.Main_Screen (0.018897s)
+[2021.02.17-01.58.57:790][449]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2021.02.17-01.58.57:792][449]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.17-01.58.57:792][449]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.17-01.58.57:793][449]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.17-01.58.57:793][449]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.17-01.58.57:793][449]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.17-01.58.57:793][449]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.17-01.58.57:793][449]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.17-01.58.57:793][449]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.17-01.58.57:794][449]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.17-01.58.57:794][449]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.17-01.58.57:809][449]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.17-01.58.57:809][449]LogAudioMixer: Display: 1: FrontRight
+[2021.02.17-01.58.57:809][449]LogAudioMixer: Display: 2: FrontCenter
+[2021.02.17-01.58.57:809][449]LogAudioMixer: Display: 3: LowFrequency
+[2021.02.17-01.58.57:809][449]LogAudioMixer: Display: 4: BackLeft
+[2021.02.17-01.58.57:809][449]LogAudioMixer: Display: 5: BackRight
+[2021.02.17-01.58.57:810][449]LogAudioMixer: Display: 6: SideLeft
+[2021.02.17-01.58.57:810][449]LogAudioMixer: Display: 7: SideRight
+[2021.02.17-01.58.57:868][449]LogAudioMixer: Display: Using Audio Device Speakers (THX Spatial Audio)
+[2021.02.17-01.58.57:868][449]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.17-01.58.57:868][449]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.17-01.58.57:868][449]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.17-01.58.57:869][449]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.17-01.58.57:882][449]LogInit: FAudioDevice initialized.
+[2021.02.17-01.58.57:897][449]LogLoad: Game class is 'BP_CarbonPushTwoGameModeBase_C'
+[2021.02.17-01.58.57:904][449]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main_Screen.Main_Screen up for play (max tick rate 0) at 2021.02.17-01.58.57
+[2021.02.17-01.58.57:905][449]LogWorld: Bringing up level for play took: 0.006987
+[2021.02.17-01.58.57:905][449]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2021.02.17-01.58.57:911][449]PIE: Server logged in
+[2021.02.17-01.58.57:912][449]PIE: Play in editor total start time 0.158 seconds.
+[2021.02.17-01.59.06:945][291]LogTemp: Warning: 100.000000
+[2021.02.17-01.59.10:761][741]LogTemp: Warning: 70.000000
+[2021.02.17-01.59.11:161][789]LogTemp: Warning: 40.000000
+[2021.02.17-01.59.12:161][909]LogTemp: Warning: 10.000000
+[2021.02.17-01.59.12:161][909]LogTemp: Warning: Don't Switch
+[2021.02.17-01.59.31:412][208]LogTemp: Warning: 100.000000
+[2021.02.17-01.59.32:679][360]LogTemp: Warning: 85.000000
+[2021.02.17-01.59.33:946][512]LogTemp: Warning: 70.000000
+[2021.02.17-01.59.35:212][664]LogTemp: Warning: 55.000000
+[2021.02.17-01.59.36:479][816]LogTemp: Warning: 40.000000
+[2021.02.17-01.59.37:745][968]LogTemp: Warning: 25.000000
+[2021.02.17-01.59.39:013][120]LogTemp: Warning: 10.000000
+[2021.02.17-01.59.39:013][120]LogTemp: Warning: Don't Switch
+[2021.02.17-01.59.42:790][569]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-01.59.42:790][569]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Main_Screen
+[2021.02.17-01.59.42:791][569]LogWorld: UWorld::CleanupWorld for Main_Screen, bSessionEnded=true, bCleanupResources=true
+[2021.02.17-01.59.42:792][569]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-01.59.42:804][569]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.17-01.59.42:806][569]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-01.59.42:856][569]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-01.59.42:858][569]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018225F94CC0), frame # 17569
+[2021.02.17-01.59.42:858][569]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018244CD4400), frame # 17569
+[2021.02.17-01.59.42:860][569]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2021.02.17-01.59.42:888][570]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2021.02.17-02.00.39:648][867]Candidate modules for hot reload:
+[2021.02.17-02.00.39:648][867]  CarbonPushTwo
+[2021.02.17-02.00.39:649][867]Launching UnrealBuildTool... [E:/UNREAL ENGINE/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CarbonPushTwo,7235 CarbonPushTwoEditor Win64 Development -Project="C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/CarbonPushTwo.uproject" "C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/CarbonPushTwo.uproject"  -IgnoreJunk]
+[2021.02.17-02.00.39:727][867]Warning: Starting HotReload took  0.1s.
+[2021.02.17-02.00.44:278][370]CompilerResultsLog: New page: Compilation - 17 Feb 2021, 02:00:44
+[2021.02.17-02.00.44:278][370]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\aveng\Documents\GitHub\CarbonPush2).
+[2021.02.17-02.00.44:278][370]CompilerResultsLog: Building CarbonPushTwoEditor...
+[2021.02.17-02.00.44:278][370]CompilerResultsLog: Using Visual Studio 2019 14.28.29337 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.17-02.00.44:278][370]CompilerResultsLog: Building 4 actions with 8 processes...
+[2021.02.17-02.00.44:279][370]CompilerResultsLog:   [1/4] Base_Character.cpp
+[2021.02.17-02.00.44:279][370]CompilerResultsLog:   [2/4] UE4Editor-CarbonPushTwo-7235.lib
+[2021.02.17-02.00.44:279][370]CompilerResultsLog:      Creating library C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\UE4Editor-CarbonPushTwo-7235.lib and object C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\UE4Editor-CarbonPushTwo-7235.exp
+[2021.02.17-02.00.44:279][370]CompilerResultsLog:   [3/4] UE4Editor-CarbonPushTwo-7235.dll
+[2021.02.17-02.00.44:279][370]CompilerResultsLog:      Creating library C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\UE4Editor-CarbonPushTwo-7235.suppressed.lib and object C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\UE4Editor-CarbonPushTwo-7235.suppressed.exp
+[2021.02.17-02.00.44:279][370]CompilerResultsLog:   [4/4] CarbonPushTwoEditor.target
+[2021.02.17-02.00.44:279][370]CompilerResultsLog: Total time in Parallel executor: 3.31 seconds
+[2021.02.17-02.00.44:279][370]CompilerResultsLog: Total execution time: 4.43 seconds
+[2021.02.17-02.00.44:279][370]LogMainFrame: MainFrame: Module compiling took 4.634 seconds
+[2021.02.17-02.00.44:310][370]LogContentBrowser: Native class hierarchy updated for 'CarbonPushTwo' in 0.0006 seconds. Added 12 classes and 2 folders.
+[2021.02.17-02.00.44:312][370]Display: HotReload successful (14 functions remapped  0 scriptstructs remapped)
+[2021.02.17-02.00.44:355][370]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 3448 classes and 828 folders.
+[2021.02.17-02.00.44:355][370]Display: HotReload took  4.7s.
+[2021.02.17-02.00.47:112][695]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.17-02.00.47:131][695]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.17-02.00.47:132][695]PIE: New page: PIE session: Main_Screen (17 Feb 2021, 02:00:47)
+[2021.02.17-02.00.47:132][695]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main_Screen
+[2021.02.17-02.00.47:147][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015492s)
+[2021.02.17-02.00.47:148][695]LogAIModule: Creating AISystem for world Main_Screen
+[2021.02.17-02.00.47:149][695]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018220E9A400), frame # 18695
+[2021.02.17-02.00.47:149][695]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018225710540), frame # 18695
+[2021.02.17-02.00.47:149][695]LogPlayLevel: PIE: World Init took: (0.001474s)
+[2021.02.17-02.00.47:149][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main_Screen.Main_Screen to /Game/Levels/UEDPIE_0_Main_Screen.Main_Screen (0.017403s)
+[2021.02.17-02.00.47:159][695]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2021.02.17-02.00.47:161][695]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.17-02.00.47:161][695]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.17-02.00.47:161][695]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.17-02.00.47:161][695]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.17-02.00.47:162][695]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.17-02.00.47:162][695]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.17-02.00.47:162][695]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.17-02.00.47:162][695]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.17-02.00.47:162][695]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.17-02.00.47:163][695]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.17-02.00.47:176][695]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.17-02.00.47:177][695]LogAudioMixer: Display: 1: FrontRight
+[2021.02.17-02.00.47:177][695]LogAudioMixer: Display: 2: FrontCenter
+[2021.02.17-02.00.47:177][695]LogAudioMixer: Display: 3: LowFrequency
+[2021.02.17-02.00.47:177][695]LogAudioMixer: Display: 4: BackLeft
+[2021.02.17-02.00.47:177][695]LogAudioMixer: Display: 5: BackRight
+[2021.02.17-02.00.47:177][695]LogAudioMixer: Display: 6: SideLeft
+[2021.02.17-02.00.47:177][695]LogAudioMixer: Display: 7: SideRight
+[2021.02.17-02.00.47:237][695]LogAudioMixer: Display: Using Audio Device Speakers (THX Spatial Audio)
+[2021.02.17-02.00.47:238][695]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.17-02.00.47:238][695]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.17-02.00.47:238][695]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.17-02.00.47:238][695]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.17-02.00.47:253][695]LogInit: FAudioDevice initialized.
+[2021.02.17-02.00.47:262][695]LogLoad: Game class is 'BP_CarbonPushTwoGameModeBase_C'
+[2021.02.17-02.00.47:273][695]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main_Screen.Main_Screen up for play (max tick rate 0) at 2021.02.17-02.00.47
+[2021.02.17-02.00.47:274][695]LogWorld: Bringing up level for play took: 0.010824
+[2021.02.17-02.00.47:274][695]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2021.02.17-02.00.47:281][695]PIE: Server logged in
+[2021.02.17-02.00.47:282][695]PIE: Play in editor total start time 0.157 seconds.
+[2021.02.17-02.00.55:381][664]LogTemp: Warning: 100.000000
+[2021.02.17-02.00.56:701][822]LogTemp: Warning: 70.000000
+[2021.02.17-02.00.58:452][ 32]LogTemp: Warning: 40.000000
+[2021.02.17-02.00.58:777][ 71]LogTemp: Warning: 100.000000
+[2021.02.17-02.01.00:044][223]LogTemp: Warning: 85.000000
+[2021.02.17-02.01.01:317][375]LogTemp: Warning: 70.000000
+[2021.02.17-02.01.01:768][429]LogTemp: Warning: 10.000000
+[2021.02.17-02.01.01:768][429]LogTemp: Warning: 0.000000
+[2021.02.17-02.01.01:768][429]LogTemp: Warning: Don't Switch
+[2021.02.17-02.01.02:584][527]LogTemp: Warning: 55.000000
+[2021.02.17-02.01.03:852][679]LogTemp: Warning: 40.000000
+[2021.02.17-02.01.05:120][831]LogTemp: Warning: 25.000000
+[2021.02.17-02.01.06:386][983]LogTemp: Warning: 10.000000
+[2021.02.17-02.01.06:386][983]LogTemp: Warning: 10.000000
+[2021.02.17-02.01.06:386][983]LogTemp: Warning: Don't Switch
+[2021.02.17-02.01.13:960][887]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-02.01.13:961][887]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Main_Screen
+[2021.02.17-02.01.13:961][887]LogWorld: UWorld::CleanupWorld for Main_Screen, bSessionEnded=true, bCleanupResources=true
+[2021.02.17-02.01.13:962][887]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-02.01.13:979][887]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.17-02.01.13:980][887]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-02.01.14:039][887]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-02.01.14:041][887]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018225710540), frame # 21887
+[2021.02.17-02.01.14:041][887]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018220E9A400), frame # 21887
+[2021.02.17-02.01.14:042][887]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2021.02.17-02.01.14:071][888]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2021.02.17-02.01.14:879][980]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.17-02.01.14:892][980]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.17-02.01.14:892][980]PIE: New page: PIE session: Main_Screen (17 Feb 2021, 02:01:14)
+[2021.02.17-02.01.14:918][980]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main_Screen
+[2021.02.17-02.01.14:931][980]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013233s)
+[2021.02.17-02.01.14:932][980]LogAIModule: Creating AISystem for world Main_Screen
+[2021.02.17-02.01.14:932][980]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000182305CC600), frame # 21980
+[2021.02.17-02.01.14:933][980]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000182442D16C0), frame # 21980
+[2021.02.17-02.01.14:933][980]LogPlayLevel: PIE: World Init took: (0.001451s)
+[2021.02.17-02.01.14:933][980]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main_Screen.Main_Screen to /Game/Levels/UEDPIE_0_Main_Screen.Main_Screen (0.015135s)
+[2021.02.17-02.01.14:943][980]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2021.02.17-02.01.14:945][980]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.17-02.01.14:945][980]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.17-02.01.14:945][980]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.17-02.01.14:945][980]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.17-02.01.14:945][980]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.17-02.01.14:945][980]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.17-02.01.14:945][980]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.17-02.01.14:945][980]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.17-02.01.14:946][980]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.17-02.01.14:946][980]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.17-02.01.14:961][980]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.17-02.01.14:961][980]LogAudioMixer: Display: 1: FrontRight
+[2021.02.17-02.01.14:962][980]LogAudioMixer: Display: 2: FrontCenter
+[2021.02.17-02.01.14:962][980]LogAudioMixer: Display: 3: LowFrequency
+[2021.02.17-02.01.14:962][980]LogAudioMixer: Display: 4: BackLeft
+[2021.02.17-02.01.14:962][980]LogAudioMixer: Display: 5: BackRight
+[2021.02.17-02.01.14:962][980]LogAudioMixer: Display: 6: SideLeft
+[2021.02.17-02.01.14:962][980]LogAudioMixer: Display: 7: SideRight
+[2021.02.17-02.01.15:019][980]LogAudioMixer: Display: Using Audio Device Speakers (THX Spatial Audio)
+[2021.02.17-02.01.15:019][980]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.17-02.01.15:019][980]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.17-02.01.15:019][980]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.17-02.01.15:020][980]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.17-02.01.15:032][980]LogInit: FAudioDevice initialized.
+[2021.02.17-02.01.15:048][980]LogLoad: Game class is 'BP_CarbonPushTwoGameModeBase_C'
+[2021.02.17-02.01.15:055][980]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main_Screen.Main_Screen up for play (max tick rate 0) at 2021.02.17-02.01.15
+[2021.02.17-02.01.15:056][980]LogWorld: Bringing up level for play took: 0.007141
+[2021.02.17-02.01.15:056][980]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2021.02.17-02.01.15:062][980]PIE: Server logged in
+[2021.02.17-02.01.15:063][980]PIE: Play in editor total start time 0.173 seconds.
+[2021.02.17-02.01.25:433][ 65]LogTemp: Warning: 100.000000
+[2021.02.17-02.01.28:123][190]LogTemp: Warning: 85.000000
+[2021.02.17-02.01.29:388][225]LogTemp: Warning: 70.000000
+[2021.02.17-02.01.29:938][291]LogTemp: Warning: 55.000000
+[2021.02.17-02.01.30:654][377]LogTemp: Warning: 40.000000
+[2021.02.17-02.01.31:205][443]LogTemp: Warning: 25.000000
+[2021.02.17-02.01.31:921][529]LogTemp: Warning: 10.000000
+[2021.02.17-02.01.31:922][529]LogTemp: Warning: 10.000000
+[2021.02.17-02.01.31:922][529]LogTemp: Warning: Don't Switch
+[2021.02.17-02.01.38:875][893]Cmd: SELECT NONE
+[2021.02.17-02.04.28:955][607]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-02.04.28:955][607]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Main_Screen
+[2021.02.17-02.04.28:956][607]LogWorld: UWorld::CleanupWorld for Main_Screen, bSessionEnded=true, bCleanupResources=true
+[2021.02.17-02.04.28:957][607]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-02.04.28:966][607]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.17-02.04.28:967][607]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-02.04.28:976][607]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-02.04.29:023][607]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000182442D16C0), frame # 24607
+[2021.02.17-02.04.29:023][607]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000182305CC600), frame # 24607
+[2021.02.17-02.04.29:024][607]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2021.02.17-02.04.29:070][609]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2021.02.17-02.04.29:590][668]Candidate modules for hot reload:
+[2021.02.17-02.04.29:590][668]  CarbonPushTwo
+[2021.02.17-02.04.29:591][668]Launching UnrealBuildTool... [E:/UNREAL ENGINE/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CarbonPushTwo,1476 CarbonPushTwoEditor Win64 Development -Project="C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/CarbonPushTwo.uproject" "C:/Users/aveng/Documents/GitHub/CarbonPush2/CarbonPushTwo/CarbonPushTwo.uproject"  -IgnoreJunk]
+[2021.02.17-02.04.29:670][668]Warning: Starting HotReload took  0.1s.
+[2021.02.17-02.04.34:226][161]CompilerResultsLog: New page: Compilation - 17 Feb 2021, 02:04:34
+[2021.02.17-02.04.34:226][161]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\aveng\Documents\GitHub\CarbonPush2).
+[2021.02.17-02.04.34:226][161]CompilerResultsLog: Building CarbonPushTwoEditor...
+[2021.02.17-02.04.34:226][161]CompilerResultsLog: Using Visual Studio 2019 14.28.29337 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.17-02.04.34:226][161]CompilerResultsLog: Building 4 actions with 8 processes...
+[2021.02.17-02.04.34:226][161]CompilerResultsLog:   [1/4] Base_Character.cpp
+[2021.02.17-02.04.34:226][161]CompilerResultsLog:   [2/4] UE4Editor-CarbonPushTwo-1476.lib
+[2021.02.17-02.04.34:226][161]CompilerResultsLog:      Creating library C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\UE4Editor-CarbonPushTwo-1476.lib and object C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\UE4Editor-CarbonPushTwo-1476.exp
+[2021.02.17-02.04.34:226][161]CompilerResultsLog:   [3/4] UE4Editor-CarbonPushTwo-1476.dll
+[2021.02.17-02.04.34:226][161]CompilerResultsLog:      Creating library C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\UE4Editor-CarbonPushTwo-1476.suppressed.lib and object C:\Users\aveng\Documents\GitHub\CarbonPush2\CarbonPushTwo\Intermediate\Build\Win64\UE4Editor\Development\CarbonPushTwo\UE4Editor-CarbonPushTwo-1476.suppressed.exp
+[2021.02.17-02.04.34:226][161]CompilerResultsLog:   [4/4] CarbonPushTwoEditor.target
+[2021.02.17-02.04.34:227][161]CompilerResultsLog: Total time in Parallel executor: 3.37 seconds
+[2021.02.17-02.04.34:227][161]CompilerResultsLog: Total execution time: 4.44 seconds
+[2021.02.17-02.04.34:227][161]LogMainFrame: MainFrame: Module compiling took 4.640 seconds
+[2021.02.17-02.04.34:261][161]LogContentBrowser: Native class hierarchy updated for 'CarbonPushTwo' in 0.0005 seconds. Added 12 classes and 2 folders.
+[2021.02.17-02.04.34:263][161]Display: HotReload successful (14 functions remapped  0 scriptstructs remapped)
+[2021.02.17-02.04.34:306][161]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 3448 classes and 828 folders.
+[2021.02.17-02.04.34:306][161]Display: HotReload took  4.7s.
+[2021.02.17-02.04.40:093][851]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.17-02.04.40:111][851]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.17-02.04.40:111][851]PIE: New page: PIE session: Main_Screen (17 Feb 2021, 02:04:40)
+[2021.02.17-02.04.40:111][851]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main_Screen
+[2021.02.17-02.04.40:127][851]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015596s)
+[2021.02.17-02.04.40:129][851]LogAIModule: Creating AISystem for world Main_Screen
+[2021.02.17-02.04.40:129][851]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018243B33C00), frame # 25851
+[2021.02.17-02.04.40:129][851]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000182442D8180), frame # 25851
+[2021.02.17-02.04.40:129][851]LogPlayLevel: PIE: World Init took: (0.002337s)
+[2021.02.17-02.04.40:129][851]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main_Screen.Main_Screen to /Game/Levels/UEDPIE_0_Main_Screen.Main_Screen (0.018419s)
+[2021.02.17-02.04.40:140][851]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2021.02.17-02.04.40:142][851]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.17-02.04.40:142][851]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.17-02.04.40:142][851]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.17-02.04.40:142][851]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.17-02.04.40:142][851]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.17-02.04.40:142][851]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.17-02.04.40:142][851]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.17-02.04.40:143][851]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.17-02.04.40:143][851]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.17-02.04.40:143][851]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.17-02.04.40:160][851]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.17-02.04.40:160][851]LogAudioMixer: Display: 1: FrontRight
+[2021.02.17-02.04.40:161][851]LogAudioMixer: Display: 2: FrontCenter
+[2021.02.17-02.04.40:161][851]LogAudioMixer: Display: 3: LowFrequency
+[2021.02.17-02.04.40:161][851]LogAudioMixer: Display: 4: BackLeft
+[2021.02.17-02.04.40:161][851]LogAudioMixer: Display: 5: BackRight
+[2021.02.17-02.04.40:161][851]LogAudioMixer: Display: 6: SideLeft
+[2021.02.17-02.04.40:161][851]LogAudioMixer: Display: 7: SideRight
+[2021.02.17-02.04.40:225][851]LogAudioMixer: Display: Using Audio Device Speakers (THX Spatial Audio)
+[2021.02.17-02.04.40:226][851]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.17-02.04.40:226][851]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.17-02.04.40:226][851]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.17-02.04.40:227][851]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.17-02.04.40:240][851]LogInit: FAudioDevice initialized.
+[2021.02.17-02.04.40:255][851]LogLoad: Game class is 'BP_CarbonPushTwoGameModeBase_C'
+[2021.02.17-02.04.40:263][851]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main_Screen.Main_Screen up for play (max tick rate 0) at 2021.02.17-02.04.40
+[2021.02.17-02.04.40:264][851]LogWorld: Bringing up level for play took: 0.007940
+[2021.02.17-02.04.40:264][851]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2021.02.17-02.04.40:271][851]PIE: Server logged in
+[2021.02.17-02.04.40:272][851]PIE: Play in editor total start time 0.166 seconds.
+[2021.02.17-02.04.43:904][284]LogTemp: Warning: 100.000000
+[2021.02.17-02.04.46:349][577]LogTemp: Warning: 70.000000
+[2021.02.17-02.04.46:525][598]LogTemp: Warning: 40.000000
+[2021.02.17-02.04.46:667][615]LogTemp: Warning: 10.000000
+[2021.02.17-02.04.46:668][615]LogTemp: Warning: Don't Switch
+[2021.02.17-02.04.46:818][633]LogTemp: Warning: 10.000000
+[2021.02.17-02.04.52:243][284]LogTemp: Warning: 100.000000
+[2021.02.17-02.04.52:419][305]LogTemp: Warning: 70.000000
+[2021.02.17-02.04.52:577][324]LogTemp: Warning: 40.000000
+[2021.02.17-02.04.52:720][341]LogTemp: Warning: 10.000000
+[2021.02.17-02.04.52:720][341]LogTemp: Warning: Don't Switch
+[2021.02.17-02.04.52:845][356]LogTemp: Warning: 10.000000
+[2021.02.17-02.04.54:444][548]LogTemp: Warning: 100.000000
+[2021.02.17-02.04.54:620][569]LogTemp: Warning: 70.000000
+[2021.02.17-02.04.58:163][994]LogTemp: Warning: 40.000000
+[2021.02.17-02.05.03:031][578]LogTemp: Warning: 100.000000
+[2021.02.17-02.05.04:298][730]LogTemp: Warning: 85.000000
+[2021.02.17-02.05.05:565][882]LogTemp: Warning: 70.000000
+[2021.02.17-02.05.06:831][ 34]LogTemp: Warning: 55.000000
+[2021.02.17-02.05.08:099][186]LogTemp: Warning: 40.000000
+[2021.02.17-02.05.09:365][338]LogTemp: Warning: 25.000000
+[2021.02.17-02.05.25:889][320]LogTemp: Warning: 10.000000
+[2021.02.17-02.05.25:890][320]LogTemp: Warning: Don't Switch
+[2021.02.17-02.05.28:180][591]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-02.05.28:181][591]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Main_Screen
+[2021.02.17-02.05.28:181][591]LogWorld: UWorld::CleanupWorld for Main_Screen, bSessionEnded=true, bCleanupResources=true
+[2021.02.17-02.05.28:182][591]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-02.05.28:200][591]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.17-02.05.28:201][591]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.17-02.05.28:256][591]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-02.05.28:257][591]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000182442D8180), frame # 31591
+[2021.02.17-02.05.28:257][591]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018243B33C00), frame # 31591
+[2021.02.17-02.05.28:259][591]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2021.02.17-02.05.28:286][592]LogPlayLevel: Display: Destroying online subsystem :Context_6

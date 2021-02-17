@@ -147,6 +147,11 @@ void EmptyLinkFunctionForGeneratedCodeBase_Character() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MainCharacter_MetaData[];
+#endif
+		static void NewProp_MainCharacter_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_MainCharacter;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GameModeReference_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_GameModeReference;
@@ -214,6 +219,17 @@ void EmptyLinkFunctionForGeneratedCodeBase_Character() {}
 		{ "ModuleRelativePath", "Base_Character.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABase_Character_Statics::NewProp_MainCharacter_MetaData[] = {
+		{ "Category", "Base_Character" },
+		{ "ModuleRelativePath", "Base_Character.h" },
+	};
+#endif
+	void Z_Construct_UClass_ABase_Character_Statics::NewProp_MainCharacter_SetBit(void* Obj)
+	{
+		((ABase_Character*)Obj)->MainCharacter = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ABase_Character_Statics::NewProp_MainCharacter = { "MainCharacter", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ABase_Character), &Z_Construct_UClass_ABase_Character_Statics::NewProp_MainCharacter_SetBit, METADATA_PARAMS(Z_Construct_UClass_ABase_Character_Statics::NewProp_MainCharacter_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABase_Character_Statics::NewProp_MainCharacter_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABase_Character_Statics::NewProp_GameModeReference_MetaData[] = {
 		{ "Comment", "//Reference to the ACarbonPushTwoGameModeBase class\n" },
@@ -327,6 +343,7 @@ void EmptyLinkFunctionForGeneratedCodeBase_Character() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABase_Character_Statics::NewProp_Camera = { "Camera", nullptr, (EPropertyFlags)0x0040000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABase_Character, Camera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABase_Character_Statics::NewProp_Camera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABase_Character_Statics::NewProp_Camera_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABase_Character_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase_Character_Statics::NewProp_MainCharacter,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase_Character_Statics::NewProp_GameModeReference,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase_Character_Statics::NewProp_CastRange,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABase_Character_Statics::NewProp_Damage,
@@ -367,7 +384,7 @@ void EmptyLinkFunctionForGeneratedCodeBase_Character() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABase_Character, 4230068825);
+	IMPLEMENT_CLASS(ABase_Character, 2826171225);
 	template<> CARBONPUSHTWO_API UClass* StaticClass<ABase_Character>()
 	{
 		return ABase_Character::StaticClass();

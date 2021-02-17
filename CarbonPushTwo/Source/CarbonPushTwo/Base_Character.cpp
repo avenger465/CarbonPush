@@ -52,7 +52,6 @@ ABase_Character::ABase_Character()
 void ABase_Character::BeginPlay()
 {
 	Super::BeginPlay();
-
 	//Creates a object reference to the GameModeBase
 	GameModeReference = Cast<ACarbonPushTwoGameModeBase>(UGameplayStatics::GetGameMode(GetWorld()));
 }
@@ -103,12 +102,14 @@ void ABase_Character::Turn(float AxisAmount)
 //Applies damage to the character
 float ABase_Character::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser)
 {
+	UE_LOG(LogTemp, Warning, TEXT("%f"), PlayerHealth);
 	//Checks if the Pawns health is below zero
-	if (PlayerHealth <= 0.0f)
+	if (PlayerHealth <= 10.0f)
 	{ 
 		//Checks if the Pawn Owner is not empty and then destroys it
 		if (GetOwner() != nullptr)
 		{
+			UE_LOG(LogTemp, Warning, TEXT("Don't Switch"));
 			GetOwner()->Destroy();
 		}
 	}
@@ -169,7 +170,7 @@ void ABase_Character::Fire()
 		if (Cast<ABase_Character>(Hit.GetActor()))
 		{
 			//Calls the ApplyDamage() function to deal damage to the Actor hit
-			UGameplayStatics::ApplyDamage( Hit.GetActor(), Damage, GetOwner()->GetInstigatorController(), this, UDamageType::StaticClass());
+			UGameplayStatics::ApplyDamage( Hit.GetActor(), Damage, GetOwner()->GetInstigatorController(), this, UDamageType::StaticClass());	
 		}
 		//Checks if the Actor hit is of type AMoveableObjects
 		else if (Cast<AMoveableObjects>(Hit.GetActor()))

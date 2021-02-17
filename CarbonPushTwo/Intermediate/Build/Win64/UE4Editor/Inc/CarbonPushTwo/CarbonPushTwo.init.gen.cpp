@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeCarbonPushTwo_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x31D3F22F,
+				0x92C6D394,
 				0x2507D1FB,
 				METADATA_PARAMS(nullptr, 0)
 			};
